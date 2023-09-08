@@ -1,4 +1,6 @@
 import 'package:circlesync/core/utils/color_palette.dart';
+import 'package:circlesync/core/utils/functions/get_text_style.dart';
+import 'package:circlesync/generated/l10n.dart';
 import 'package:flutter/material.dart';
 
 class SplashView extends StatelessWidget {
@@ -28,14 +30,11 @@ class SplashViewBody extends StatelessWidget {
           Row(
             mainAxisAlignment: MainAxisAlignment.center,
             children: [
-              Text(
-                'CircleSync',
-                style: TextStyle(
-                    fontSize: 32,
-                    fontFamily: 'Nunito',
-                    color: ColorsPallete.primarySwatch,
-                    fontWeight: FontWeight.w800),
-              )
+              Text('Circle Sync',
+                  style: getTextStyle(
+                      fontSize: 32,
+                      fontWeight: FontWeight.w700,
+                      color: ColorsPallete.primarySwatch)),
             ],
           )
         ],
