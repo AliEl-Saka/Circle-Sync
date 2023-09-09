@@ -1,8 +1,9 @@
-import 'package:circlesync/core/widgets/page_transition.dart';
-import 'package:circlesync/features/onbaording/presentaion/views/onboarding_view.dart';
+import 'package:circlesync/core/utils/app_router.dart';
+import 'package:circlesync/core/utils/prefs_keys.dart';
 import 'package:circlesync/features/spalsh/presentaion/views/widgets/scaling_app_logo.dart';
 import 'package:circlesync/features/spalsh/presentaion/views/widgets/sliding_app_name.dart';
 import 'package:flutter/material.dart';
+import 'package:shared_preferences/shared_preferences.dart';
 
 class SplashViewBody extends StatefulWidget {
   const SplashViewBody({super.key});
@@ -33,10 +34,20 @@ class _SplashViewBodyState extends State<SplashViewBody> {
   void goToNextPage() {
     Future.delayed(
       const Duration(seconds: 4),
-      () {
-        Navigator.pushReplacement(
-            context, PageTransition(const OnBoardingView()));
+      () async {
+        bool hasSeenOnBoarding = await hasSeenOnboarding();
+        if (!mounted) return;
+        Navigator.pushReplacementNamed(
+            context,
+            hasSeenOnBoarding
+                ? AppRoutes.chooseLoginMethodScreen
+                : AppRoutes.onBoardingview);
       },
     );
+  }
+
+  Future<bool> hasSeenOnboarding() async {
+    SharedPreferences prefs = await SharedPreferences.getInstance();
+    return prefs.getBool(PrefsKeys.onBoardingKey) ?? false;
   }
 }

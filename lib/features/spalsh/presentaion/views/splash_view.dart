@@ -1,3 +1,4 @@
+import 'package:circlesync/core/utils/size_config.dart';
 import 'package:circlesync/features/spalsh/presentaion/views/widgets/splash_view_body.dart';
 import 'package:flutter/material.dart';
 
@@ -6,6 +7,7 @@ class SplashView extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    SizeConfig().init(context);
     return const Scaffold(
       body: SplashViewBody(),
     );
