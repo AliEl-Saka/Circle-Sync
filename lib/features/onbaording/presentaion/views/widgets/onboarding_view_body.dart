@@ -83,6 +83,6 @@ class _OnBoardingViewBodyState extends State<OnBoardingViewBody> {
     SharedPreferences prefs = await SharedPreferences.getInstance();
     prefs.setBool(PrefsKeys.onBoardingKey, true);
     if (!mounted) return;
-    Navigator.pushReplacementNamed(context, AppRoutes.chooseLoginMethodScreen);
+    Navigator.pushReplacementNamed(context, AppRoutes.chooseSignUpMethodView);
   }
 }

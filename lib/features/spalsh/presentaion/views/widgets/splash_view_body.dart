@@ -40,8 +40,8 @@ class _SplashViewBodyState extends State<SplashViewBody> {
         Navigator.pushReplacementNamed(
             context,
             hasSeenOnBoarding
-                ? AppRoutes.chooseLoginMethodScreen
-                : AppRoutes.onBoardingview);
+                ? AppRoutes.chooseSignUpMethodView
+                : AppRoutes.onBoardingView);
       },
     );
   }

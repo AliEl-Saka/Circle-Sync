@@ -21,5 +21,22 @@ class MessageLookup extends MessageLookupByLibrary {
   String get localeName => 'en';
 
   final messages = _notInlinedMessages(_notInlinedMessages);
-  static Map<String, Function> _notInlinedMessages(_) => <String, Function>{};
+  static Map<String, Function> _notInlinedMessages(_) => <String, Function>{
+        "SignUpViewAlradyHaveAccount":
+            MessageLookupByLibrary.simpleMessage("Already have an account? "),
+        "SignUpViewEmailCard":
+            MessageLookupByLibrary.simpleMessage("Continue with email"),
+        "SignUpViewFaceBookCard":
+            MessageLookupByLibrary.simpleMessage("Continue with Facebook"),
+        "SignUpViewGmailCard":
+            MessageLookupByLibrary.simpleMessage("Continue with Gmail"),
+        "SignUpViewLogIn": MessageLookupByLibrary.simpleMessage("Log in"),
+        "SignUpViewOr": MessageLookupByLibrary.simpleMessage("Or"),
+        "SignUpViewSubTitle": MessageLookupByLibrary.simpleMessage(
+            "Join our community to share, discover, and connect with like-minded individuals worldwide."),
+        "SignUpViewTitleOne":
+            MessageLookupByLibrary.simpleMessage("Welcome To"),
+        "SignUpViewTitleTwo":
+            MessageLookupByLibrary.simpleMessage(" CircleSync!")
+      };
 }

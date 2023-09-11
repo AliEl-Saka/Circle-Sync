@@ -1,3 +1,11 @@
 {
-    
+    "SignUpViewTitleOne": "Welcome To",
+    "SignUpViewTitleTwo" : " CircleSync!",
+    "SignUpViewSubTitle" : "Join our community to share, discover, and connect with like-minded individuals worldwide.",
+    "SignUpViewFaceBookCard" : "Continue with Facebook",
+    "SignUpViewGmailCard" : "Continue with Gmail",
+    "SignUpViewOr" : "Or",
+    "SignUpViewEmailCard" : "Continue with email",
+    "SignUpViewAlradyHaveAccount" : "Already have an account? ",
+    "SignUpViewLogIn" : "Log in"
 }

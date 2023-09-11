@@ -21,5 +21,22 @@ class MessageLookup extends MessageLookupByLibrary {
   String get localeName => 'ar';
 
   final messages = _notInlinedMessages(_notInlinedMessages);
-  static Map<String, Function> _notInlinedMessages(_) => <String, Function>{};
+  static Map<String, Function> _notInlinedMessages(_) => <String, Function>{
+        "SignUpViewAlradyHaveAccount":
+            MessageLookupByLibrary.simpleMessage("لديك حساب بالفعل؟ "),
+        "SignUpViewEmailCard":
+            MessageLookupByLibrary.simpleMessage("التسجيل عبر الايميل"),
+        "SignUpViewFaceBookCard":
+            MessageLookupByLibrary.simpleMessage("التسجيل عبر فيسبوك"),
+        "SignUpViewGmailCard":
+            MessageLookupByLibrary.simpleMessage("التسجيل عبر جيميل"),
+        "SignUpViewLogIn": MessageLookupByLibrary.simpleMessage("سجل دخولك"),
+        "SignUpViewOr": MessageLookupByLibrary.simpleMessage("أو"),
+        "SignUpViewSubTitle": MessageLookupByLibrary.simpleMessage(
+            "انضم إلى مجتمعنا للمشاركة، واكتشاف، والاتصال بأفراد ذوي الاهتمامات المماثلة حول العالم."),
+        "SignUpViewTitleOne":
+            MessageLookupByLibrary.simpleMessage("اهلاً بك في"),
+        "SignUpViewTitleTwo":
+            MessageLookupByLibrary.simpleMessage(" سيركل سينك!")
+      };
 }

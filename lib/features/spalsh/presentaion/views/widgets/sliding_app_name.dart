@@ -64,7 +64,7 @@ class _SlidingAppNameState extends State<SlidingAppName>
       duration: const Duration(milliseconds: 750),
     );
     slidingDownAnimation =
-        Tween<Offset>(begin: Offset.zero, end: const Offset(0, 8)).animate(
+        Tween<Offset>(begin: Offset.zero, end: const Offset(0, 3)).animate(
       CurvedAnimation(parent: slidingDownController, curve: Curves.easeInOut),
     );
 

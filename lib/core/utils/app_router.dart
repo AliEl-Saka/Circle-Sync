@@ -1,4 +1,4 @@
-import 'package:circlesync/features/auth/presentaion/views/choose_your_login_view.dart';
+import 'package:circlesync/features/auth/presentaion/choose_signup_method.dart/views/choose_signup_method_view.dart';
 import 'package:circlesync/features/onbaording/presentaion/maneger/page_index_cubit.dart';
 import 'package:circlesync/features/onbaording/presentaion/views/onboarding_view.dart';
 import 'package:circlesync/features/spalsh/presentaion/views/splash_view.dart';
@@ -7,8 +7,8 @@ import 'package:flutter_bloc/flutter_bloc.dart';
 
 class AppRoutes {
   static const String splashView = '/';
-  static const String onBoardingview = '/onBoardingView';
-  static const String chooseLoginMethodScreen = '/chooseLoginMethodScreen';
+  static const String onBoardingView = '/onBoarding View';
+  static const String chooseSignUpMethodView = '/choose signUp method view';
 }
 
 class AppRouter {
@@ -18,16 +18,16 @@ class AppRouter {
         return MaterialPageRoute(
           builder: (context) => const SplashView(),
         );
-      case AppRoutes.onBoardingview:
+      case AppRoutes.onBoardingView:
         return MaterialPageRoute(
           builder: (context) => BlocProvider(
             create: (context) => PageIndexCubit(),
             child: const OnBoardingView(),
           ),
         );
-      case AppRoutes.chooseLoginMethodScreen:
+      case AppRoutes.chooseSignUpMethodView:
         return MaterialPageRoute(
-          builder: (context) => const ChooseYourLoginMethodView(),
+          builder: (context) => const ChooseSignUpMethodView(),
         );
     }
     return null;

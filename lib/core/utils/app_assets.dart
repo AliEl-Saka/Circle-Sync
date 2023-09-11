@@ -6,4 +6,8 @@ class AppAssets {
       'assets/images/onbarding images/second screen.png';
   static const String onboardingThirdImage =
       'assets/images/onbarding images/third screen.png';
+  static const String signUpFaceBookIcon =
+      'assets/images/auth/facebook.png';
+  static const String signUpGmailIcon =
+      'assets/images/auth/gmail.png';
 }

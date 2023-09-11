@@ -35,7 +35,9 @@ class CircleSync extends StatelessWidget {
         return BlocBuilder<LanguageCubit, Languages>(
           builder: (context, langState) {
             return MaterialApp(
-              locale: Locale(langState == Languages.en ? 'en' : 'ar'),
+              // useInheritedMediaQuery: true,
+              // builder: DevicePreview.appBuilder,
+              locale: Locale(langState == Languages.en ? 'ar' : 'ar'),
               localizationsDelegates: const [
                 S.delegate,
                 GlobalMaterialLocalizations.delegate,
