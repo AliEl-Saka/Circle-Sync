@@ -40,6 +40,19 @@ class MessageLookup extends MessageLookupByLibrary {
         "ChooseSignUpMethodViewTitleOne":
             MessageLookupByLibrary.simpleMessage("اهلاً بك في"),
         "ChooseSignUpMethodViewTitleTwo":
-            MessageLookupByLibrary.simpleMessage(" سيركل سينك!")
+            MessageLookupByLibrary.simpleMessage(" سيركل سينك!"),
+        "SignUpWithEmailViewConfirmPassword":
+            MessageLookupByLibrary.simpleMessage("تأكيد كلمه السر"),
+        "SignUpWithEmailViewContinue":
+            MessageLookupByLibrary.simpleMessage("اكمال التسجيل"),
+        "SignUpWithEmailViewCreateYourAccount":
+            MessageLookupByLibrary.simpleMessage("انشئ حسابك"),
+        "SignUpWithEmailViewEmail":
+            MessageLookupByLibrary.simpleMessage("الايميل"),
+        "SignUpWithEmailViewName":
+            MessageLookupByLibrary.simpleMessage("الأسم"),
+        "SignUpWithEmailViewNow": MessageLookupByLibrary.simpleMessage("الأن"),
+        "SignUpWithEmailViewPassword":
+            MessageLookupByLibrary.simpleMessage("كلمه السر")
       };
 }

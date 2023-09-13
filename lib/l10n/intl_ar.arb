@@ -8,8 +8,14 @@
     "ChooseSignUpMethodViewEmailCard" : "التسجيل عبر الايميل",
     "ChooseSignUpMethodViewPhoneCard" : "التسجيل عبر رقم الهاتف",
     "ChooseSignUpMethodViewAlradyHaveAccount" : "لديك حساب بالفعل؟ ",
-    "ChooseSignUpMethodViewLogIn" : "سجل دخولك"
+    "ChooseSignUpMethodViewLogIn" : "سجل دخولك",
 
-    
+    "SignUpWithEmailViewCreateYourAccount" : "انشئ حسابك",
+    "SignUpWithEmailViewNow" : "الأن",
+    "SignUpWithEmailViewEmail" : "الايميل",
+    "SignUpWithEmailViewName" : "الأسم",
+    "SignUpWithEmailViewPassword" : "كلمه السر",
+    "SignUpWithEmailViewConfirmPassword" : "تأكيد كلمه السر",
+    "SignUpWithEmailViewContinue" : "اكمال التسجيل"
 
 }

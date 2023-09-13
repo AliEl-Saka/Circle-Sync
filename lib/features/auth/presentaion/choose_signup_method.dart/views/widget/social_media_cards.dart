@@ -1,4 +1,5 @@
 import 'package:circlesync/core/utils/app_assets.dart';
+import 'package:circlesync/core/utils/app_router.dart';
 import 'package:circlesync/core/utils/color_palette.dart';
 import 'package:circlesync/core/widgets/custom_button.dart';
 import 'package:circlesync/generated/l10n.dart';
@@ -16,7 +17,7 @@ class ContinueWithEmailButton extends StatelessWidget {
       textColor: Colors.white,
       cardName: S.of(context).ChooseSignUpMethodViewEmailCard,
       onTap: () {
-        
+        Navigator.pushNamed(context, AppRoutes.signUpWithEmail);
       },
     );
   }

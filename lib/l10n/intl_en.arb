@@ -8,7 +8,13 @@
     "ChooseSignUpMethodViewEmailCard" : "Register with email",
     "ChooseSignUpMethodViewPhoneCard" : "Register with phone number",
     "ChooseSignUpMethodViewAlradyHaveAccount" : "Already have an account? ",
-    "ChooseSignUpMethodViewLogIn" : "Log in"
+    "ChooseSignUpMethodViewLogIn" : "Log in",
 
-  
+    "SignUpWithEmailViewCreateYourAccount" : "Create Account",
+    "SignUpWithEmailViewNow" : "Now",
+    "SignUpWithEmailViewEmail" : "Email",
+    "SignUpWithEmailViewName" : "Name",
+    "SignUpWithEmailViewPassword" : "Password",
+    "SignUpWithEmailViewConfirmPassword" : "Confirm Password",
+    "SignUpWithEmailViewContinue" : "Continue"
 }

@@ -20,6 +20,9 @@ class CustomButton extends StatelessWidget {
   Widget build(BuildContext context) {
     return Column(
       children: [
+        const SizedBox(
+          height: 16,
+        ),
         GestureDetector(
           onTap: onTap,
           child: Container(
@@ -62,9 +65,6 @@ class CustomButton extends StatelessWidget {
             ),
           ),
         ),
-        const SizedBox(
-          height: 16,
-        )
       ],
     );
   }

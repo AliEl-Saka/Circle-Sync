@@ -40,6 +40,18 @@ class MessageLookup extends MessageLookupByLibrary {
         "ChooseSignUpMethodViewTitleOne":
             MessageLookupByLibrary.simpleMessage("Welcome To"),
         "ChooseSignUpMethodViewTitleTwo":
-            MessageLookupByLibrary.simpleMessage(" CircleSync!")
+            MessageLookupByLibrary.simpleMessage(" CircleSync!"),
+        "SignUpWithEmailViewConfirmPassword":
+            MessageLookupByLibrary.simpleMessage("Confirm Password"),
+        "SignUpWithEmailViewContinue":
+            MessageLookupByLibrary.simpleMessage("Continue"),
+        "SignUpWithEmailViewCreateYourAccount":
+            MessageLookupByLibrary.simpleMessage("Create Account"),
+        "SignUpWithEmailViewEmail":
+            MessageLookupByLibrary.simpleMessage("Email"),
+        "SignUpWithEmailViewName": MessageLookupByLibrary.simpleMessage("Name"),
+        "SignUpWithEmailViewNow": MessageLookupByLibrary.simpleMessage("Now"),
+        "SignUpWithEmailViewPassword":
+            MessageLookupByLibrary.simpleMessage("Password")
       };
 }

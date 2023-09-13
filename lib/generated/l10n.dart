@@ -149,6 +149,76 @@ class S {
       args: [],
     );
   }
+
+  /// `Create Account`
+  String get SignUpWithEmailViewCreateYourAccount {
+    return Intl.message(
+      'Create Account',
+      name: 'SignUpWithEmailViewCreateYourAccount',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Now`
+  String get SignUpWithEmailViewNow {
+    return Intl.message(
+      'Now',
+      name: 'SignUpWithEmailViewNow',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Email`
+  String get SignUpWithEmailViewEmail {
+    return Intl.message(
+      'Email',
+      name: 'SignUpWithEmailViewEmail',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Name`
+  String get SignUpWithEmailViewName {
+    return Intl.message(
+      'Name',
+      name: 'SignUpWithEmailViewName',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Password`
+  String get SignUpWithEmailViewPassword {
+    return Intl.message(
+      'Password',
+      name: 'SignUpWithEmailViewPassword',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Confirm Password`
+  String get SignUpWithEmailViewConfirmPassword {
+    return Intl.message(
+      'Confirm Password',
+      name: 'SignUpWithEmailViewConfirmPassword',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Continue`
+  String get SignUpWithEmailViewContinue {
+    return Intl.message(
+      'Continue',
+      name: 'SignUpWithEmailViewContinue',
+      desc: '',
+      args: [],
+    );
+  }
 }
 
 class AppLocalizationDelegate extends LocalizationsDelegate<S> {

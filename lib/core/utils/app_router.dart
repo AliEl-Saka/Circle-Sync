@@ -1,4 +1,5 @@
 import 'package:circlesync/features/auth/presentaion/choose_signup_method.dart/views/choose_signup_method_view.dart';
+import 'package:circlesync/features/auth/presentaion/signup_with_email.dart/views/signup_with_email.dart';
 import 'package:circlesync/features/onbaording/presentaion/maneger/page_index_cubit.dart';
 import 'package:circlesync/features/onbaording/presentaion/views/onboarding_view.dart';
 import 'package:circlesync/features/spalsh/presentaion/views/splash_view.dart';
@@ -9,7 +10,7 @@ class AppRoutes {
   static const String splashView = '/';
   static const String onBoardingView = '/onBoarding View';
   static const String chooseSignUpMethodView = '/choose signUp method view';
-  
+  static const String signUpWithEmail = '/SignUp with email';
 }
 
 class AppRouter {
@@ -30,7 +31,10 @@ class AppRouter {
         return MaterialPageRoute(
           builder: (context) => const ChooseSignUpMethodView(),
         );
-      
+      case AppRoutes.signUpWithEmail:
+        return MaterialPageRoute(
+          builder: (context) => const SignUpWithEmailView(),
+        );
     }
     return null;
   }
