@@ -1,7 +1,5 @@
-
 import 'package:flutter/material.dart';
 import 'package:intl/intl.dart';
-
 
 TextStyle getTextStyle(
     {required double fontSize,

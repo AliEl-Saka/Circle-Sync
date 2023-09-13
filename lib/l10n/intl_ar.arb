@@ -1,11 +1,15 @@
 {
-    "SignUpViewTitleOne": "اهلاً بك في",
-    "SignUpViewTitleTwo": " سيركل سينك!",
-    "SignUpViewSubTitle": "انضم إلى مجتمعنا للمشاركة، واكتشاف، والاتصال بأفراد ذوي الاهتمامات المماثلة حول العالم.",
-    "SignUpViewFaceBookCard" : "التسجيل عبر فيسبوك",
-    "SignUpViewGmailCard" : "التسجيل عبر جيميل",
-    "SignUpViewOr" : "أو",
-    "SignUpViewEmailCard" : "التسجيل عبر الايميل",
-    "SignUpViewAlradyHaveAccount" : "لديك حساب بالفعل؟ ",
-    "SignUpViewLogIn" : "سجل دخولك"
+    "ChooseSignUpMethodViewTitleOne": "اهلاً بك في",
+    "ChooseSignUpMethodViewTitleTwo": " سيركل سينك!",
+    "ChooseSignUpMethodViewSubTitle": "انضم إلى مجتمعنا للمشاركة، واكتشاف، والاتصال بأفراد ذوي الاهتمامات المماثلة حول العالم.",
+    "ChooseSignUpMethodViewFaceBookCard" : "التسجيل عبر فيسبوك",
+    "ChooseSignUpMethodViewGmailCard" : "التسجيل عبر جيميل",
+    "ChooseSignUpMethodViewOr" : "أو",
+    "ChooseSignUpMethodViewEmailCard" : "التسجيل عبر الايميل",
+    "ChooseSignUpMethodViewPhoneCard" : "التسجيل عبر رقم الهاتف",
+    "ChooseSignUpMethodViewAlradyHaveAccount" : "لديك حساب بالفعل؟ ",
+    "ChooseSignUpMethodViewLogIn" : "سجل دخولك"
+
+    
+
 }

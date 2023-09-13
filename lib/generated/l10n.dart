@@ -51,90 +51,100 @@ class S {
   }
 
   /// `Welcome To`
-  String get SignUpViewTitleOne {
+  String get ChooseSignUpMethodViewTitleOne {
     return Intl.message(
       'Welcome To',
-      name: 'SignUpViewTitleOne',
+      name: 'ChooseSignUpMethodViewTitleOne',
       desc: '',
       args: [],
     );
   }
 
   /// ` CircleSync!`
-  String get SignUpViewTitleTwo {
+  String get ChooseSignUpMethodViewTitleTwo {
     return Intl.message(
       ' CircleSync!',
-      name: 'SignUpViewTitleTwo',
+      name: 'ChooseSignUpMethodViewTitleTwo',
       desc: '',
       args: [],
     );
   }
 
   /// `Join our community to share, discover, and connect with like-minded individuals worldwide.`
-  String get SignUpViewSubTitle {
+  String get ChooseSignUpMethodViewSubTitle {
     return Intl.message(
       'Join our community to share, discover, and connect with like-minded individuals worldwide.',
-      name: 'SignUpViewSubTitle',
+      name: 'ChooseSignUpMethodViewSubTitle',
       desc: '',
       args: [],
     );
   }
 
-  /// `Continue with Facebook`
-  String get SignUpViewFaceBookCard {
+  /// `Register with Facebook`
+  String get ChooseSignUpMethodViewFaceBookCard {
     return Intl.message(
-      'Continue with Facebook',
-      name: 'SignUpViewFaceBookCard',
+      'Register with Facebook',
+      name: 'ChooseSignUpMethodViewFaceBookCard',
       desc: '',
       args: [],
     );
   }
 
-  /// `Continue with Gmail`
-  String get SignUpViewGmailCard {
+  /// `Register with Gmail`
+  String get ChooseSignUpMethodViewGmailCard {
     return Intl.message(
-      'Continue with Gmail',
-      name: 'SignUpViewGmailCard',
+      'Register with Gmail',
+      name: 'ChooseSignUpMethodViewGmailCard',
       desc: '',
       args: [],
     );
   }
 
   /// `Or`
-  String get SignUpViewOr {
+  String get ChooseSignUpMethodViewOr {
     return Intl.message(
       'Or',
-      name: 'SignUpViewOr',
+      name: 'ChooseSignUpMethodViewOr',
       desc: '',
       args: [],
     );
   }
 
-  /// `Continue with email`
-  String get SignUpViewEmailCard {
+  /// `Register with email`
+  String get ChooseSignUpMethodViewEmailCard {
     return Intl.message(
-      'Continue with email',
-      name: 'SignUpViewEmailCard',
+      'Register with email',
+      name: 'ChooseSignUpMethodViewEmailCard',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Register with phone number`
+  String get ChooseSignUpMethodViewPhoneCard {
+    return Intl.message(
+      'Register with phone number',
+      name: 'ChooseSignUpMethodViewPhoneCard',
       desc: '',
       args: [],
     );
   }
 
   /// `Already have an account? `
-  String get SignUpViewAlradyHaveAccount {
+  String get ChooseSignUpMethodViewAlradyHaveAccount {
     return Intl.message(
       'Already have an account? ',
-      name: 'SignUpViewAlradyHaveAccount',
+      name: 'ChooseSignUpMethodViewAlradyHaveAccount',
       desc: '',
       args: [],
     );
   }
 
   /// `Log in`
-  String get SignUpViewLogIn {
+  String get ChooseSignUpMethodViewLogIn {
     return Intl.message(
       'Log in',
-      name: 'SignUpViewLogIn',
+      name: 'ChooseSignUpMethodViewLogIn',
       desc: '',
       args: [],
     );

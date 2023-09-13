@@ -1,4 +1,5 @@
 import 'package:circlesync/core/utils/color_palette.dart';
+import 'package:circlesync/core/utils/functions/get_text_style.dart';
 import 'package:flutter/material.dart';
 
 class CustomTextField extends StatelessWidget {
@@ -6,10 +7,16 @@ class CustomTextField extends StatelessWidget {
       {super.key,
       required this.onchanged,
       required this.hintText,
+      required this.prefixIcon,
+      this.obscureText,
+      this.suffixIcon,
       required this.validator});
   final String hintText;
   final Function(String)? onchanged;
   final String? Function(String?)? validator;
+  final Icon prefixIcon;
+  final Widget? suffixIcon;
+  final bool? obscureText;
   final usernamecontroller = TextEditingController();
 
   @override
@@ -18,26 +25,30 @@ class CustomTextField extends StatelessWidget {
       children: [
         TextFormField(
           onChanged: onchanged,
-          style: const TextStyle(fontSize: 20),
+          style: getTextStyle(
+              fontSize: 22, fontWeight: FontWeight.w500, color: Colors.black),
           validator: validator,
+          obscureText: obscureText ?? false,
           decoration: InputDecoration(
-            filled: true,
-            fillColor: ColorsPallete.lightGray,
-            errorStyle: const TextStyle(fontSize: 16),
-            contentPadding:
-                const EdgeInsets.symmetric(horizontal: 16, vertical: 20),
-            enabledBorder: OutlineInputBorder(
-                borderRadius: const BorderRadius.all(Radius.circular(16)),
-                borderSide: BorderSide(color: Colors.black.withOpacity(0.5))),
-            focusedBorder: OutlineInputBorder(
-                borderRadius: const BorderRadius.all(Radius.circular(16)),
-                borderSide: BorderSide(color: ColorsPallete.primarySwatch)),
-            hintText: hintText,
-            hintStyle: const TextStyle(
-                color: Color(0xff767676),
-                fontSize: 20,
-                fontWeight: FontWeight.w500),
-          ),
+              filled: true,
+              fillColor: ColorsPallete.lightGray,
+              errorStyle: const TextStyle(fontSize: 20),
+              contentPadding:
+                  const EdgeInsets.symmetric(horizontal: 16, vertical: 18),
+              enabledBorder: OutlineInputBorder(
+                  borderRadius: const BorderRadius.all(Radius.circular(12)),
+                  borderSide: BorderSide(color: Colors.black.withOpacity(0.5))),
+              focusedBorder: OutlineInputBorder(
+                  borderRadius: const BorderRadius.all(Radius.circular(12)),
+                  borderSide: BorderSide(color: ColorsPallete.primarySwatch)),
+              hintText: hintText,
+              prefixIcon: prefixIcon,
+              suffixIcon: suffixIcon,
+              hintStyle: getTextStyle(
+                fontSize: 22,
+                fontWeight: FontWeight.w500,
+                color: const Color(0xff767676),
+              )),
         ),
         const SizedBox(
           height: 16,

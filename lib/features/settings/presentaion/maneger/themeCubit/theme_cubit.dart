@@ -6,19 +6,19 @@ import 'package:shared_preferences/shared_preferences.dart';
 
 class ThemeCubit extends Cubit<ThemeData> {
   ThemeCubit() : super(AppThemeData.lightTheme) {
-    getThemeFromPref();
+    _getThemeFromPref();
   }
 
   void toggleTheme() {
     emit(state.brightness == Brightness.light
         ? AppThemeData.darkTheme
         : AppThemeData.lightTheme);
-    saveThemeToPref(state);
+    _saveThemeToPref(state);
   }
 
  
 
-  Future<void> getThemeFromPref() async {
+  Future<void> _getThemeFromPref() async {
     SharedPreferences prefs = await SharedPreferences.getInstance();
     final savedThemeIndex =
         prefs.getInt(PrefsKeys.themeKey) ?? 0; // Default to light theme
@@ -27,7 +27,7 @@ class ThemeCubit extends Cubit<ThemeData> {
     emit(savedTheme);
   }
 
-  Future<void> saveThemeToPref(ThemeData theme) async {
+  Future<void> _saveThemeToPref(ThemeData theme) async {
     SharedPreferences prefs = await SharedPreferences.getInstance();
     final themeIndex = theme == AppThemeData.lightTheme ? 0 : 1;
     await prefs.setInt(PrefsKeys.themeKey, themeIndex);

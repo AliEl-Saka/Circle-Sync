@@ -22,21 +22,24 @@ class MessageLookup extends MessageLookupByLibrary {
 
   final messages = _notInlinedMessages(_notInlinedMessages);
   static Map<String, Function> _notInlinedMessages(_) => <String, Function>{
-        "SignUpViewAlradyHaveAccount":
+        "ChooseSignUpMethodViewAlradyHaveAccount":
             MessageLookupByLibrary.simpleMessage("Already have an account? "),
-        "SignUpViewEmailCard":
-            MessageLookupByLibrary.simpleMessage("Continue with email"),
-        "SignUpViewFaceBookCard":
-            MessageLookupByLibrary.simpleMessage("Continue with Facebook"),
-        "SignUpViewGmailCard":
-            MessageLookupByLibrary.simpleMessage("Continue with Gmail"),
-        "SignUpViewLogIn": MessageLookupByLibrary.simpleMessage("Log in"),
-        "SignUpViewOr": MessageLookupByLibrary.simpleMessage("Or"),
-        "SignUpViewSubTitle": MessageLookupByLibrary.simpleMessage(
+        "ChooseSignUpMethodViewEmailCard":
+            MessageLookupByLibrary.simpleMessage("Register with email"),
+        "ChooseSignUpMethodViewFaceBookCard":
+            MessageLookupByLibrary.simpleMessage("Register with Facebook"),
+        "ChooseSignUpMethodViewGmailCard":
+            MessageLookupByLibrary.simpleMessage("Register with Gmail"),
+        "ChooseSignUpMethodViewLogIn":
+            MessageLookupByLibrary.simpleMessage("Log in"),
+        "ChooseSignUpMethodViewOr": MessageLookupByLibrary.simpleMessage("Or"),
+        "ChooseSignUpMethodViewPhoneCard":
+            MessageLookupByLibrary.simpleMessage("Register with phone number"),
+        "ChooseSignUpMethodViewSubTitle": MessageLookupByLibrary.simpleMessage(
             "Join our community to share, discover, and connect with like-minded individuals worldwide."),
-        "SignUpViewTitleOne":
+        "ChooseSignUpMethodViewTitleOne":
             MessageLookupByLibrary.simpleMessage("Welcome To"),
-        "SignUpViewTitleTwo":
+        "ChooseSignUpMethodViewTitleTwo":
             MessageLookupByLibrary.simpleMessage(" CircleSync!")
       };
 }

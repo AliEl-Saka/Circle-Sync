@@ -4,8 +4,8 @@ class ColorsPallete {
   static MaterialColor primarySwatch = PrimarySwatchPallete.primarySwatch;
   static Color lightThemeScaffoldBackGroundColor = const Color(0xffF5F5F5);
   static Color darkThemeScaffoldBackGroundColor = const Color(0xff131620);
-  static Color textSecondaryColor = const Color(0xff707070);
-  static Color lightGray = const Color.fromARGB(255, 236, 235, 235);
+  static Color darkGray = const Color(0xff707070);
+  static Color lightGray = const Color.fromARGB(255, 238, 238, 238);
 }
 
 class PrimarySwatchPallete {

@@ -10,4 +10,10 @@ class AppAssets {
       'assets/images/auth/facebook.png';
   static const String signUpGmailIcon =
       'assets/images/auth/gmail.png';
+  static const String signUpNameIcon =
+      'assets/images/auth/username.png';
+  static const String signUpEmailIcon =
+      'assets/images/auth/email.png';
+  static const String signUpPasswordIcon =
+      'assets/images/auth/email.png';
 }

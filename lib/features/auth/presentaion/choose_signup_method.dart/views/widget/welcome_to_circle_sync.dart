@@ -16,12 +16,12 @@ class WelcomeToCicleSync extends StatelessWidget {
       TextSpan(
         children: [
           TextSpan(
-            text: S.of(context).SignUpViewTitleOne,
+            text: S.of(context).ChooseSignUpMethodViewTitleOne,
             style: getTextStyle(
                 fontSize: 34, fontWeight: FontWeight.w700, color: Colors.black),
           ),
           TextSpan(
-            text: S.of(context).SignUpViewTitleTwo,
+            text: S.of(context).ChooseSignUpMethodViewTitleTwo,
             style: getTextStyle(
                 fontSize: 34,
                 fontWeight: FontWeight.w700,

@@ -41,7 +41,8 @@ class _SplashViewBodyState extends State<SplashViewBody> {
             context,
             hasSeenOnBoarding
                 ? AppRoutes.chooseSignUpMethodView
-                : AppRoutes.onBoardingView);
+                : AppRoutes.onBoardingView
+                );
       },
     );
   }

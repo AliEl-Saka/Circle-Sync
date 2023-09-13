@@ -9,6 +9,7 @@ class AppRoutes {
   static const String splashView = '/';
   static const String onBoardingView = '/onBoarding View';
   static const String chooseSignUpMethodView = '/choose signUp method view';
+  
 }
 
 class AppRouter {
@@ -29,6 +30,7 @@ class AppRouter {
         return MaterialPageRoute(
           builder: (context) => const ChooseSignUpMethodView(),
         );
+      
     }
     return null;
   }

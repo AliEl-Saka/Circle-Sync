@@ -14,13 +14,13 @@ class AlreadyHaveAccount extends StatelessWidget {
     return Row(
       children: [
         AutoSizeText(
-          S.of(context).SignUpViewAlradyHaveAccount,
+          S.of(context).ChooseSignUpMethodViewAlradyHaveAccount,
           maxLines: 1,
           style: getTextStyle(
               fontSize: 22, fontWeight: FontWeight.w500, color: Colors.black),
         ),
         AutoSizeText(
-          S.of(context).SignUpViewLogIn,
+          S.of(context).ChooseSignUpMethodViewLogIn,
           maxLines: 1,
           style: getTextStyle(
               fontSize: 22,

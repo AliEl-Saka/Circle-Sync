@@ -22,21 +22,24 @@ class MessageLookup extends MessageLookupByLibrary {
 
   final messages = _notInlinedMessages(_notInlinedMessages);
   static Map<String, Function> _notInlinedMessages(_) => <String, Function>{
-        "SignUpViewAlradyHaveAccount":
+        "ChooseSignUpMethodViewAlradyHaveAccount":
             MessageLookupByLibrary.simpleMessage("لديك حساب بالفعل؟ "),
-        "SignUpViewEmailCard":
+        "ChooseSignUpMethodViewEmailCard":
             MessageLookupByLibrary.simpleMessage("التسجيل عبر الايميل"),
-        "SignUpViewFaceBookCard":
+        "ChooseSignUpMethodViewFaceBookCard":
             MessageLookupByLibrary.simpleMessage("التسجيل عبر فيسبوك"),
-        "SignUpViewGmailCard":
+        "ChooseSignUpMethodViewGmailCard":
             MessageLookupByLibrary.simpleMessage("التسجيل عبر جيميل"),
-        "SignUpViewLogIn": MessageLookupByLibrary.simpleMessage("سجل دخولك"),
-        "SignUpViewOr": MessageLookupByLibrary.simpleMessage("أو"),
-        "SignUpViewSubTitle": MessageLookupByLibrary.simpleMessage(
+        "ChooseSignUpMethodViewLogIn":
+            MessageLookupByLibrary.simpleMessage("سجل دخولك"),
+        "ChooseSignUpMethodViewOr": MessageLookupByLibrary.simpleMessage("أو"),
+        "ChooseSignUpMethodViewPhoneCard":
+            MessageLookupByLibrary.simpleMessage("التسجيل عبر رقم الهاتف"),
+        "ChooseSignUpMethodViewSubTitle": MessageLookupByLibrary.simpleMessage(
             "انضم إلى مجتمعنا للمشاركة، واكتشاف، والاتصال بأفراد ذوي الاهتمامات المماثلة حول العالم."),
-        "SignUpViewTitleOne":
+        "ChooseSignUpMethodViewTitleOne":
             MessageLookupByLibrary.simpleMessage("اهلاً بك في"),
-        "SignUpViewTitleTwo":
+        "ChooseSignUpMethodViewTitleTwo":
             MessageLookupByLibrary.simpleMessage(" سيركل سينك!")
       };
 }

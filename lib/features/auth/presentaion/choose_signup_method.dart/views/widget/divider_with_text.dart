@@ -20,7 +20,7 @@ class DividerWithTextWidget extends StatelessWidget {
           ),
         ),
         Text(
-          S.of(context).SignUpViewOr,
+          S.of(context).ChooseSignUpMethodViewOr,
           style: getTextStyle(
               fontSize: 24, fontWeight: FontWeight.w500, color: Colors.black),
         ),
