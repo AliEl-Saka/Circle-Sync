@@ -37,7 +37,7 @@ class CircleSync extends StatelessWidget {
             return MaterialApp(
               // useInheritedMediaQuery: true,
               // builder: DevicePreview.appBuilder,
-              locale: Locale(langState == Languages.en ? 'ar' : 'ar'),
+              locale: Locale(langState == Languages.en ? 'en' : 'ar'),
               localizationsDelegates: const [
                 S.delegate,
                 GlobalMaterialLocalizations.delegate,

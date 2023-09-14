@@ -1,9 +1,10 @@
 import 'package:circlesync/core/utils/size_config.dart';
-import 'package:circlesync/features/auth/presentaion/signup_with_email.dart/views/widgets/already_have_account.dart';
-import 'package:circlesync/features/auth/presentaion/signup_with_email.dart/views/widgets/continue_button.dart';
-import 'package:circlesync/features/auth/presentaion/signup_with_email.dart/views/widgets/form.dart';
-import 'package:circlesync/features/auth/presentaion/signup_with_email.dart/views/widgets/go_back_icon.dart';
-import 'package:circlesync/features/auth/presentaion/signup_with_email.dart/views/widgets/main_title.dart';
+import 'package:circlesync/core/widgets/auth_views_padding.dart';
+import 'package:circlesync/features/auth/presentaion/signup_with_email/views/widgets/already_have_account.dart';
+import 'package:circlesync/features/auth/presentaion/signup_with_email/views/widgets/continue_button.dart';
+import 'package:circlesync/features/auth/presentaion/signup_with_email/views/widgets/form.dart';
+import 'package:circlesync/features/auth/presentaion/signup_with_email/views/widgets/go_back_icon.dart';
+import 'package:circlesync/features/auth/presentaion/signup_with_email/views/widgets/main_title.dart';
 import 'package:flutter/material.dart';
 
 class SignUpWithEmailViewBody extends StatefulWidget {
@@ -20,15 +21,11 @@ class _SignUpWithEmailViewBodyState extends State<SignUpWithEmailViewBody> {
 
   @override
   Widget build(BuildContext context) {
-    return Padding(
-      padding: EdgeInsets.symmetric(horizontal: SizeConfig.defaultSize! * 3),
+    return AuthViewsPadding(
       child: SingleChildScrollView(
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
-            SizedBox(
-              height: SizeConfig.defaultSize! * 2.5,
-            ),
             const GoBackIcon(),
             SizedBox(
               height: SizeConfig.defaultSize! * 4,
@@ -41,7 +38,7 @@ class _SignUpWithEmailViewBodyState extends State<SignUpWithEmailViewBody> {
                 obscurePassword: obscurePassword,
                 obscureConfirmPassword:
                     obscureConfirmPassword), // all screen text fields
-
+    
             SizedBox(
               height: SizeConfig.defaultSize! * 4,
             ),
@@ -56,4 +53,3 @@ class _SignUpWithEmailViewBodyState extends State<SignUpWithEmailViewBody> {
     );
   }
 }
-
