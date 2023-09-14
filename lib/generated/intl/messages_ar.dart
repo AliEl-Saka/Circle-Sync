@@ -49,12 +49,25 @@ class MessageLookup extends MessageLookupByLibrary {
             MessageLookupByLibrary.simpleMessage("انشئ حسابك"),
         "SignUpWithEmailViewEmail":
             MessageLookupByLibrary.simpleMessage("الايميل"),
-        "SignUpWithEmailViewLinearIndicator": MessageLookupByLibrary.simpleMessage(
-            "يجب أن تكون كلمة المرور الخاصة بك عبارة عن ثمانية أحرف على الأقل وتتضمن مزيجًا من الأحرف الإنجليزية الكبيرة والصغيرة، بالإضافة إلى الأرقام لزيادة الأمان."),
         "SignUpWithEmailViewName":
             MessageLookupByLibrary.simpleMessage("الأسم"),
         "SignUpWithEmailViewNow": MessageLookupByLibrary.simpleMessage("الأن"),
         "SignUpWithEmailViewPassword":
-            MessageLookupByLibrary.simpleMessage("كلمه السر")
+            MessageLookupByLibrary.simpleMessage("كلمه السر"),
+        "SignUpWithEmailViewPasswordDialogFirst":
+            MessageLookupByLibrary.simpleMessage(
+                "• تكون على الأقل ثمانية أحرف"),
+        "SignUpWithEmailViewPasswordDialogFourth":
+            MessageLookupByLibrary.simpleMessage(
+                "• تحتوي على رقم واحد على الأقل"),
+        "SignUpWithEmailViewPasswordDialogSecond":
+            MessageLookupByLibrary.simpleMessage(
+                "• تحتوي على حرف واحد على الأقل"),
+        "SignUpWithEmailViewPasswordDialogThird":
+            MessageLookupByLibrary.simpleMessage(
+                "• تحتوي على حرف كبير واحد على الأقل"),
+        "SignUpWithEmailViewPasswordDialogTitle":
+            MessageLookupByLibrary.simpleMessage(
+                "كلمة المرور يجب أن تستوفي المتطلبات التالية")
       };
 }

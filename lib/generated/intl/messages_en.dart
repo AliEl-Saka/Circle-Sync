@@ -46,14 +46,26 @@ class MessageLookup extends MessageLookupByLibrary {
         "SignUpWithEmailViewContinue":
             MessageLookupByLibrary.simpleMessage("Continue"),
         "SignUpWithEmailViewCreateYourAccount":
-            MessageLookupByLibrary.simpleMessage("Create Account"),
+            MessageLookupByLibrary.simpleMessage("Create Your"),
         "SignUpWithEmailViewEmail":
             MessageLookupByLibrary.simpleMessage("Email"),
-        "SignUpWithEmailViewLinearIndicator": MessageLookupByLibrary.simpleMessage(
-            "Your password should be a minimum of eight characters in length and include a mix of both uppercase and lowercase English letters, as well as numbers for added security"),
         "SignUpWithEmailViewName": MessageLookupByLibrary.simpleMessage("Name"),
-        "SignUpWithEmailViewNow": MessageLookupByLibrary.simpleMessage("Now"),
+        "SignUpWithEmailViewNow":
+            MessageLookupByLibrary.simpleMessage("Account"),
         "SignUpWithEmailViewPassword":
-            MessageLookupByLibrary.simpleMessage("Password")
+            MessageLookupByLibrary.simpleMessage("Password"),
+        "SignUpWithEmailViewPasswordDialogFirst":
+            MessageLookupByLibrary.simpleMessage(
+                "• Be at least eight characters"),
+        "SignUpWithEmailViewPasswordDialogFourth":
+            MessageLookupByLibrary.simpleMessage("• at least one number"),
+        "SignUpWithEmailViewPasswordDialogSecond":
+            MessageLookupByLibrary.simpleMessage("• at least one letter"),
+        "SignUpWithEmailViewPasswordDialogThird":
+            MessageLookupByLibrary.simpleMessage(
+                "• at least one capital letter"),
+        "SignUpWithEmailViewPasswordDialogTitle":
+            MessageLookupByLibrary.simpleMessage(
+                "Password must meet the following requirements:")
       };
 }

@@ -6,8 +6,10 @@ class SignUpWithEmailView extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const Scaffold(
-      body: SignUpWithEmailViewBody(),
+    return const SafeArea(
+      child: Scaffold(
+        body: SignUpWithEmailViewBody(),
+      ),
     );
   }
 }

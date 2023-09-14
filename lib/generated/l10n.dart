@@ -150,20 +150,20 @@ class S {
     );
   }
 
-  /// `Create Account`
+  /// `Create Your`
   String get SignUpWithEmailViewCreateYourAccount {
     return Intl.message(
-      'Create Account',
+      'Create Your',
       name: 'SignUpWithEmailViewCreateYourAccount',
       desc: '',
       args: [],
     );
   }
 
-  /// `Now`
+  /// `Account`
   String get SignUpWithEmailViewNow {
     return Intl.message(
-      'Now',
+      'Account',
       name: 'SignUpWithEmailViewNow',
       desc: '',
       args: [],
@@ -220,11 +220,51 @@ class S {
     );
   }
 
-  /// `Your password should be a minimum of eight characters in length and include a mix of both uppercase and lowercase English letters, as well as numbers for added security`
-  String get SignUpWithEmailViewLinearIndicator {
+  /// `Password must meet the following requirements:`
+  String get SignUpWithEmailViewPasswordDialogTitle {
     return Intl.message(
-      'Your password should be a minimum of eight characters in length and include a mix of both uppercase and lowercase English letters, as well as numbers for added security',
-      name: 'SignUpWithEmailViewLinearIndicator',
+      'Password must meet the following requirements:',
+      name: 'SignUpWithEmailViewPasswordDialogTitle',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `• Be at least eight characters`
+  String get SignUpWithEmailViewPasswordDialogFirst {
+    return Intl.message(
+      '• Be at least eight characters',
+      name: 'SignUpWithEmailViewPasswordDialogFirst',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `• at least one letter`
+  String get SignUpWithEmailViewPasswordDialogSecond {
+    return Intl.message(
+      '• at least one letter',
+      name: 'SignUpWithEmailViewPasswordDialogSecond',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `• at least one capital letter`
+  String get SignUpWithEmailViewPasswordDialogThird {
+    return Intl.message(
+      '• at least one capital letter',
+      name: 'SignUpWithEmailViewPasswordDialogThird',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `• at least one number`
+  String get SignUpWithEmailViewPasswordDialogFourth {
+    return Intl.message(
+      '• at least one number',
+      name: 'SignUpWithEmailViewPasswordDialogFourth',
       desc: '',
       args: [],
     );

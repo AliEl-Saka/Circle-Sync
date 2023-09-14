@@ -1,5 +1,4 @@
-import 'package:circlesync/core/utils/functions/get_text_style.dart';
-import 'package:circlesync/generated/l10n.dart';
+import 'package:circlesync/features/auth/presentaion/signup_with_email.dart/views/widgets/text_fields_widgets/password_text_field_with_linear_indicator_widgets/linear_indecator_with_details_icon_widgets/details_icon_widgets/password_dialog_body.dart';
 import 'package:flutter/material.dart';
 
 class PasswordDialog extends StatelessWidget {
@@ -37,12 +36,7 @@ class PasswordDialogContent extends StatelessWidget {
                   offset: Offset(0.0, 0.0),
                 ),
               ]),
-          child: Text(
-            S.of(context).SignUpWithEmailViewLinearIndicator,
-            textAlign: TextAlign.center,
-            style: getTextStyle(
-                fontSize: 26, fontWeight: FontWeight.w500, color: Colors.black),
-          ),
+          child: const PasswordDialogBody(),
         ),
         Positioned(
           top: 0.0,

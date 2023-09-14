@@ -28,7 +28,7 @@ class TwoTextsInOneRow extends StatelessWidget {
               firstText,
               maxLines: 1,
               style: getTextStyle(
-                  fontSize: 23,
+                  fontSize: 22,
                   fontWeight: FontWeight.w500,
                   color: firstTextColor),
             ),
@@ -36,8 +36,8 @@ class TwoTextsInOneRow extends StatelessWidget {
               secondText,
               maxLines: 1,
               style: getTextStyle(
-                  fontSize: 23,
-                  fontWeight: FontWeight.w600,
+                  fontSize: 22,
+                  fontWeight: FontWeight.w700,
                   color: secondTextColor),
             )
           ],
