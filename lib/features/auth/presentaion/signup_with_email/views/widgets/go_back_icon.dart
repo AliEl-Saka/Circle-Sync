@@ -1,4 +1,3 @@
-import 'package:circlesync/core/utils/color_palette.dart';
 import 'package:circlesync/core/utils/functions/is_arabic.dart';
 import 'package:flutter/material.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
@@ -6,7 +5,9 @@ import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 class GoBackIcon extends StatelessWidget {
   const GoBackIcon({
     super.key,
+    required this.iconColor
   });
+  final Color iconColor;
 
   @override
   Widget build(BuildContext context) {
@@ -21,7 +22,7 @@ class GoBackIcon extends StatelessWidget {
                 ? FontAwesomeIcons.arrowRight
                 : FontAwesomeIcons.arrowLeft,
             size: 28,
-            color: ColorsPallete.darkGray,
+            color: iconColor,
           )),
     );
   }

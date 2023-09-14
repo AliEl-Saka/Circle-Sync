@@ -41,6 +41,17 @@ class MessageLookup extends MessageLookupByLibrary {
             MessageLookupByLibrary.simpleMessage("اهلاً بك في"),
         "ChooseSignUpMethodViewTitleTwo":
             MessageLookupByLibrary.simpleMessage(" سيركل سينك!"),
+        "OtpVerification": MessageLookupByLibrary.simpleMessage("رمز التحقق"),
+        "OtpVerificationCodeSend":
+            MessageLookupByLibrary.simpleMessage("سيتم ارسال الكود خلال"),
+        "OtpVerificationDidnotReceiveCode":
+            MessageLookupByLibrary.simpleMessage(" لم تستقبل أي كود؟"),
+        "OtpVerificationHasBeenSentTo":
+            MessageLookupByLibrary.simpleMessage("تم ارسال كود التفعيل الي"),
+        "OtpVerificationRequestRegister":
+            MessageLookupByLibrary.simpleMessage("تسجيل"),
+        "OtpVerificationRequestResend":
+            MessageLookupByLibrary.simpleMessage("اعاده الارسال"),
         "SignUpWithEmailViewConfirmPassword":
             MessageLookupByLibrary.simpleMessage("تأكيد كلمه السر"),
         "SignUpWithEmailViewContinue":

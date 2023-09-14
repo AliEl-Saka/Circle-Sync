@@ -22,5 +22,13 @@
     "SignUpWithEmailViewPasswordDialogFirst" : "• Be at least eight characters",
     "SignUpWithEmailViewPasswordDialogSecond" : "• at least one letter",
     "SignUpWithEmailViewPasswordDialogThird" : "• at least one capital letter",
-    "SignUpWithEmailViewPasswordDialogFourth" : "• at least one number"
+    "SignUpWithEmailViewPasswordDialogFourth" : "• at least one number",
+ 
+    "OtpVerification" : "OTP Verification",
+    "OtpVerificationHasBeenSentTo" : "A Verification Code has been sent to",
+    "OtpVerificationCodeSend" : "Code will be send in",
+    "OtpVerificationDidnotReceiveCode" : "Didn't receive code? ",
+    "OtpVerificationRequestResend" : "Resend",
+    "OtpVerificationRequestRegister" : " Register"
+
 }

@@ -41,6 +41,18 @@ class MessageLookup extends MessageLookupByLibrary {
             MessageLookupByLibrary.simpleMessage("Welcome To"),
         "ChooseSignUpMethodViewTitleTwo":
             MessageLookupByLibrary.simpleMessage(" CircleSync!"),
+        "OtpVerification":
+            MessageLookupByLibrary.simpleMessage("OTP Verification"),
+        "OtpVerificationCodeSend":
+            MessageLookupByLibrary.simpleMessage("Code will be send in"),
+        "OtpVerificationDidnotReceiveCode":
+            MessageLookupByLibrary.simpleMessage("Didn\'t receive code? "),
+        "OtpVerificationHasBeenSentTo": MessageLookupByLibrary.simpleMessage(
+            "A Verification Code has been sent to"),
+        "OtpVerificationRequestRegister":
+            MessageLookupByLibrary.simpleMessage(" Register"),
+        "OtpVerificationRequestResend":
+            MessageLookupByLibrary.simpleMessage("Resend"),
         "SignUpWithEmailViewConfirmPassword":
             MessageLookupByLibrary.simpleMessage("Confirm Password"),
         "SignUpWithEmailViewContinue":

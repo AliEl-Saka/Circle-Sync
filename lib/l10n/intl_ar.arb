@@ -22,7 +22,15 @@
     "SignUpWithEmailViewPasswordDialogFirst" : "• تكون على الأقل ثمانية أحرف",
     "SignUpWithEmailViewPasswordDialogSecond" : "• تحتوي على حرف واحد على الأقل",
     "SignUpWithEmailViewPasswordDialogThird" : "• تحتوي على حرف كبير واحد على الأقل",
-    "SignUpWithEmailViewPasswordDialogFourth" : "• تحتوي على رقم واحد على الأقل"
+    "SignUpWithEmailViewPasswordDialogFourth" : "• تحتوي على رقم واحد على الأقل",
+    
+    "OtpVerification" : "رمز التحقق",
+    "OtpVerificationHasBeenSentTo" : "تم ارسال كود التفعيل الي",
+    "OtpVerificationCodeSend" : "سيتم ارسال الكود خلال",
+    "OtpVerificationDidnotReceiveCode" : " لم تستقبل أي كود؟",
+    "OtpVerificationRequestResend" : "اعاده الارسال",
+    "OtpVerificationRequestRegister" : "تسجيل"
+    
 
 
 }

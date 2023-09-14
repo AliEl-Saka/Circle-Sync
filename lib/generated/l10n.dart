@@ -269,6 +269,66 @@ class S {
       args: [],
     );
   }
+
+  /// `OTP Verification`
+  String get OtpVerification {
+    return Intl.message(
+      'OTP Verification',
+      name: 'OtpVerification',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `A Verification Code has been sent to`
+  String get OtpVerificationHasBeenSentTo {
+    return Intl.message(
+      'A Verification Code has been sent to',
+      name: 'OtpVerificationHasBeenSentTo',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Code will be send in`
+  String get OtpVerificationCodeSend {
+    return Intl.message(
+      'Code will be send in',
+      name: 'OtpVerificationCodeSend',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Didn't receive code? `
+  String get OtpVerificationDidnotReceiveCode {
+    return Intl.message(
+      'Didn\'t receive code? ',
+      name: 'OtpVerificationDidnotReceiveCode',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Resend`
+  String get OtpVerificationRequestResend {
+    return Intl.message(
+      'Resend',
+      name: 'OtpVerificationRequestResend',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// ` Register`
+  String get OtpVerificationRequestRegister {
+    return Intl.message(
+      ' Register',
+      name: 'OtpVerificationRequestRegister',
+      desc: '',
+      args: [],
+    );
+  }
 }
 
 class AppLocalizationDelegate extends LocalizationsDelegate<S> {

@@ -1,11 +1,11 @@
 import 'package:circlesync/core/utils/app_assets.dart';
 import 'package:circlesync/core/utils/size_config.dart';
 import 'package:circlesync/core/widgets/auth_views_padding.dart';
+import 'package:circlesync/features/auth/presentaion/choose_signup_method/views/widget/choose_signup_method_already_have_account.dart';
 import 'package:circlesync/features/auth/presentaion/choose_signup_method/views/widget/choose_signup_method_sub_title.dart';
 import 'package:circlesync/features/auth/presentaion/choose_signup_method/views/widget/divider_with_text.dart';
 import 'package:circlesync/features/auth/presentaion/choose_signup_method/views/widget/social_media_cards.dart';
 import 'package:circlesync/features/auth/presentaion/choose_signup_method/views/widget/choose_signup_method_title.dart';
-import 'package:circlesync/features/auth/presentaion/signup_with_email/views/widgets/already_have_account.dart';
 import 'package:flutter/material.dart';
 
 class ChooseSignUpViewBody extends StatelessWidget {
@@ -44,7 +44,7 @@ class ChooseSignUpViewBody extends StatelessWidget {
             const DividerWithTextWidget(),
             const ContinueWithEmailButton(), //sign up with email
             const ContinueWithPhoneButton(), //sign up with phone
-            const AlreadyHaveAnAccount(),
+            const ChooseSignupMethodAlreadyHaveAnAccount(),
             const SizedBox(
               height: 24,
             ),

@@ -1,6 +1,7 @@
+import 'package:circlesync/core/utils/color_palette.dart';
 import 'package:circlesync/core/utils/size_config.dart';
 import 'package:circlesync/core/widgets/auth_views_padding.dart';
-import 'package:circlesync/features/auth/presentaion/signup_with_email/views/widgets/already_have_account.dart';
+import 'package:circlesync/features/auth/presentaion/signup_with_email/views/widgets/signup_with_email_already_have_account.dart';
 import 'package:circlesync/features/auth/presentaion/signup_with_email/views/widgets/continue_button.dart';
 import 'package:circlesync/features/auth/presentaion/signup_with_email/views/widgets/form.dart';
 import 'package:circlesync/features/auth/presentaion/signup_with_email/views/widgets/go_back_icon.dart';
@@ -26,7 +27,10 @@ class _SignUpWithEmailViewBodyState extends State<SignUpWithEmailViewBody> {
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
-            const GoBackIcon(),
+            SizedBox(
+              height: SizeConfig.defaultSize! * 2.5,
+            ),
+            GoBackIcon(iconColor: ColorsPallete.darkGray),
             SizedBox(
               height: SizeConfig.defaultSize! * 4,
             ),
@@ -38,12 +42,12 @@ class _SignUpWithEmailViewBodyState extends State<SignUpWithEmailViewBody> {
                 obscurePassword: obscurePassword,
                 obscureConfirmPassword:
                     obscureConfirmPassword), // all screen text fields
-    
+
             SizedBox(
               height: SizeConfig.defaultSize! * 4,
             ),
             const ContinueButton(),
-            const AlreadyHaveAnAccount(),
+            const SignupWithEmailAlreadyHaveAnAccount(),
             SizedBox(
               height: SizeConfig.defaultSize! * 3,
             ),

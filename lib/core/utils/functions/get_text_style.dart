@@ -6,7 +6,7 @@ TextStyle getTextStyle(
     required FontWeight fontWeight,
     required Color color}) {
   double fontFamilySize =
-      Intl.getCurrentLocale() == 'ar' ? fontSize : fontSize - 2;
+      Intl.getCurrentLocale() == 'ar' ? fontSize : fontSize - 4;
 
   return Intl.getCurrentLocale() == 'ar'
       ? TextStyle(

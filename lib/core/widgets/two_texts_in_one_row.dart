@@ -3,17 +3,21 @@ import 'package:flutter/material.dart';
 import 'package:circlesync/core/utils/functions/get_text_style.dart';
 
 class TwoTextsInOneRow extends StatelessWidget {
-  const TwoTextsInOneRow({
-    Key? key,
-    required this.firstText,
-    required this.firstTextColor,
-    required this.secondText,
-    required this.secondTextColor,
-  }) : super(key: key);
+  const TwoTextsInOneRow(
+      {Key? key,
+      required this.firstText,
+      required this.firstTextColor,
+      required this.secondText,
+      required this.secondTextColor,
+      required this.customfontSize,
+      required this.mainAxisAlignment})
+      : super(key: key);
   final String firstText;
   final Color firstTextColor;
   final String secondText;
   final Color secondTextColor;
+  final double customfontSize;
+  final MainAxisAlignment mainAxisAlignment;
 
   @override
   Widget build(BuildContext context) {
@@ -23,12 +27,13 @@ class TwoTextsInOneRow extends StatelessWidget {
           height: 6,
         ),
         Row(
+          mainAxisAlignment: mainAxisAlignment,
           children: [
             AutoSizeText(
               firstText,
               maxLines: 1,
               style: getTextStyle(
-                  fontSize: 22,
+                  fontSize: customfontSize,
                   fontWeight: FontWeight.w500,
                   color: firstTextColor),
             ),
@@ -36,7 +41,7 @@ class TwoTextsInOneRow extends StatelessWidget {
               secondText,
               maxLines: 1,
               style: getTextStyle(
-                  fontSize: 22,
+                  fontSize: customfontSize,
                   fontWeight: FontWeight.w700,
                   color: secondTextColor),
             )
