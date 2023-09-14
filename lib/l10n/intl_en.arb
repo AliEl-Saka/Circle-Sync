@@ -16,5 +16,6 @@
     "SignUpWithEmailViewName" : "Name",
     "SignUpWithEmailViewPassword" : "Password",
     "SignUpWithEmailViewConfirmPassword" : "Confirm Password",
-    "SignUpWithEmailViewContinue" : "Continue"
+    "SignUpWithEmailViewContinue" : "Continue",
+    "SignUpWithEmailViewLinearIndicator": "Your password should be a minimum of eight characters in length and include a mix of both uppercase and lowercase English letters, as well as numbers for added security"
 }

@@ -37,14 +37,15 @@ class _SignUpWithEmailViewBodyState extends State<SignUpWithEmailViewBody> {
             ),
             const MainTitle(),
             SizedBox(
-              height: SizeConfig.defaultSize! * 5,
+              height: SizeConfig.defaultSize! * 3,
             ),
             SignUpWithEmailForm(
                 obscurePassword: obscurePassword,
                 obscureConfirmPassword:
                     obscureConfirmPassword), // all screen text fields
+
             SizedBox(
-              height: SizeConfig.defaultSize! * 3,
+              height: SizeConfig.defaultSize! * 5,
             ),
             const ContinueButton(),
             TwoTextsInOneRow(
@@ -59,5 +60,3 @@ class _SignUpWithEmailViewBodyState extends State<SignUpWithEmailViewBody> {
     );
   }
 }
-
-

@@ -38,6 +38,7 @@ dependencies:
   flutter_localizations:
     sdk: flutter
   font_awesome_flutter: ^10.5.0
+  percent_indicator: ^4.2.3
   shared_preferences: ^2.2.1
 
 dev_dependencies:

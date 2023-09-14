@@ -49,6 +49,8 @@ class MessageLookup extends MessageLookupByLibrary {
             MessageLookupByLibrary.simpleMessage("انشئ حسابك"),
         "SignUpWithEmailViewEmail":
             MessageLookupByLibrary.simpleMessage("الايميل"),
+        "SignUpWithEmailViewLinearIndicator": MessageLookupByLibrary.simpleMessage(
+            "يجب أن تكون كلمة المرور الخاصة بك عبارة عن ثمانية أحرف على الأقل وتتضمن مزيجًا من الأحرف الإنجليزية الكبيرة والصغيرة، بالإضافة إلى الأرقام لزيادة الأمان."),
         "SignUpWithEmailViewName":
             MessageLookupByLibrary.simpleMessage("الأسم"),
         "SignUpWithEmailViewNow": MessageLookupByLibrary.simpleMessage("الأن"),

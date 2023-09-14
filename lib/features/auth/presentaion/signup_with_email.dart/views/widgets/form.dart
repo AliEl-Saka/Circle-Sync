@@ -1,10 +1,8 @@
-// ignore_for_file: public_member_api_docs, sort_constructors_first
+import 'package:circlesync/features/auth/presentaion/signup_with_email.dart/views/widgets/text_fields_widgets/confirm_password_text_field.dart';
+import 'package:circlesync/features/auth/presentaion/signup_with_email.dart/views/widgets/text_fields_widgets/email_text_field.dart';
+import 'package:circlesync/features/auth/presentaion/signup_with_email.dart/views/widgets/text_fields_widgets/name_text_field.dart';
+import 'package:circlesync/features/auth/presentaion/signup_with_email.dart/views/widgets/text_fields_widgets/password_text_field_with_linear_indicator.dart';
 import 'package:flutter/material.dart';
-
-import 'package:circlesync/features/auth/presentaion/signup_with_email.dart/views/widgets/confirm_password_text_field.dart';
-import 'package:circlesync/features/auth/presentaion/signup_with_email.dart/views/widgets/email_text_field.dart';
-import 'package:circlesync/features/auth/presentaion/signup_with_email.dart/views/widgets/name_text_field.dart';
-import 'package:circlesync/features/auth/presentaion/signup_with_email.dart/views/widgets/password_text_field.dart';
 
 class SignUpWithEmailForm extends StatelessWidget {
   const SignUpWithEmailForm({
@@ -21,7 +19,7 @@ class SignUpWithEmailForm extends StatelessWidget {
       children: [
         const NameTextField(),
         const EmailTextField(),
-        PasswordTextField(obscureText: obscurePassword),
+        PasswordTextFieldWithLinearIndicator(obscureText: obscurePassword),
         ConfirmPasswordTextField(obsucreText: obscureConfirmPassword)
       ],
     );

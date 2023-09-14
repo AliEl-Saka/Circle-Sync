@@ -49,6 +49,8 @@ class MessageLookup extends MessageLookupByLibrary {
             MessageLookupByLibrary.simpleMessage("Create Account"),
         "SignUpWithEmailViewEmail":
             MessageLookupByLibrary.simpleMessage("Email"),
+        "SignUpWithEmailViewLinearIndicator": MessageLookupByLibrary.simpleMessage(
+            "Your password should be a minimum of eight characters in length and include a mix of both uppercase and lowercase English letters, as well as numbers for added security"),
         "SignUpWithEmailViewName": MessageLookupByLibrary.simpleMessage("Name"),
         "SignUpWithEmailViewNow": MessageLookupByLibrary.simpleMessage("Now"),
         "SignUpWithEmailViewPassword":

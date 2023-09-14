@@ -16,6 +16,8 @@
     "SignUpWithEmailViewName" : "الأسم",
     "SignUpWithEmailViewPassword" : "كلمه السر",
     "SignUpWithEmailViewConfirmPassword" : "تأكيد كلمه السر",
-    "SignUpWithEmailViewContinue" : "اكمال التسجيل"
+    "SignUpWithEmailViewContinue" : "اكمال التسجيل",
+    "SignUpWithEmailViewLinearIndicator" : "يجب أن تكون كلمة المرور الخاصة بك عبارة عن ثمانية أحرف على الأقل وتتضمن مزيجًا من الأحرف الإنجليزية الكبيرة والصغيرة، بالإضافة إلى الأرقام لزيادة الأمان."
+    
 
 }

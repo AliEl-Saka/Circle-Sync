@@ -219,6 +219,16 @@ class S {
       args: [],
     );
   }
+
+  /// `Your password should be a minimum of eight characters in length and include a mix of both uppercase and lowercase English letters, as well as numbers for added security`
+  String get SignUpWithEmailViewLinearIndicator {
+    return Intl.message(
+      'Your password should be a minimum of eight characters in length and include a mix of both uppercase and lowercase English letters, as well as numbers for added security',
+      name: 'SignUpWithEmailViewLinearIndicator',
+      desc: '',
+      args: [],
+    );
+  }
 }
 
 class AppLocalizationDelegate extends LocalizationsDelegate<S> {
