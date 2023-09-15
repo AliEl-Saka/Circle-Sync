@@ -11,14 +11,16 @@ class CustomTextField extends StatelessWidget {
       this.obscureText,
       this.suffixIcon,
       required this.controller,
+      this.readOnly = false,
       required this.validator});
   final String hintText;
   final Function(String)? onchanged;
   final String? Function(String?)? validator;
-  final Icon prefixIcon;
+  final Widget prefixIcon;
   final Widget? suffixIcon;
   final bool? obscureText;
   final TextEditingController controller;
+  final bool readOnly;
 
   @override
   Widget build(BuildContext context) {
@@ -28,6 +30,7 @@ class CustomTextField extends StatelessWidget {
           height: 16,
         ),
         TextFormField(
+          readOnly: readOnly,
           onChanged: onchanged,
           controller: controller,
           style: getTextStyle(
