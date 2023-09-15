@@ -52,33 +52,36 @@ class MessageLookup extends MessageLookupByLibrary {
             MessageLookupByLibrary.simpleMessage("تسجيل"),
         "OtpVerificationRequestResend":
             MessageLookupByLibrary.simpleMessage("اعاده الارسال"),
-        "SignUpWithEmailViewConfirmPassword":
+        "SignUpWithEmailOrPhoneViewConfirmPassword":
             MessageLookupByLibrary.simpleMessage("تأكيد كلمه السر"),
-        "SignUpWithEmailViewContinue":
+        "SignUpWithEmailOrPhoneViewContinue":
             MessageLookupByLibrary.simpleMessage("اكمال التسجيل"),
-        "SignUpWithEmailViewCreateYourAccount":
+        "SignUpWithEmailOrPhoneViewCreateYourAccount":
             MessageLookupByLibrary.simpleMessage("انشئ حسابك"),
-        "SignUpWithEmailViewEmail":
+        "SignUpWithEmailOrPhoneViewEmail":
             MessageLookupByLibrary.simpleMessage("الايميل"),
-        "SignUpWithEmailViewName":
+        "SignUpWithEmailOrPhoneViewName":
             MessageLookupByLibrary.simpleMessage("الأسم"),
-        "SignUpWithEmailViewNow": MessageLookupByLibrary.simpleMessage("الأن"),
-        "SignUpWithEmailViewPassword":
+        "SignUpWithEmailOrPhoneViewNow":
+            MessageLookupByLibrary.simpleMessage("الأن"),
+        "SignUpWithEmailOrPhoneViewPassword":
             MessageLookupByLibrary.simpleMessage("كلمه السر"),
-        "SignUpWithEmailViewPasswordDialogFirst":
+        "SignUpWithEmailOrPhoneViewPasswordDialogFirst":
             MessageLookupByLibrary.simpleMessage(
                 "• تكون على الأقل ثمانية أحرف"),
-        "SignUpWithEmailViewPasswordDialogFourth":
+        "SignUpWithEmailOrPhoneViewPasswordDialogFourth":
             MessageLookupByLibrary.simpleMessage(
                 "• تحتوي على رقم واحد على الأقل"),
-        "SignUpWithEmailViewPasswordDialogSecond":
+        "SignUpWithEmailOrPhoneViewPasswordDialogSecond":
             MessageLookupByLibrary.simpleMessage(
                 "• تحتوي على حرف واحد على الأقل"),
-        "SignUpWithEmailViewPasswordDialogThird":
+        "SignUpWithEmailOrPhoneViewPasswordDialogThird":
             MessageLookupByLibrary.simpleMessage(
                 "• تحتوي على حرف كبير واحد على الأقل"),
-        "SignUpWithEmailViewPasswordDialogTitle":
+        "SignUpWithEmailOrPhoneViewPasswordDialogTitle":
             MessageLookupByLibrary.simpleMessage(
-                "كلمة المرور يجب أن تستوفي المتطلبات التالية")
+                "كلمة المرور يجب أن تستوفي المتطلبات التالية"),
+        "SignUpWithEmailOrPhoneViewPhone":
+            MessageLookupByLibrary.simpleMessage("رقم الهاتف")
       };
 }

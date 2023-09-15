@@ -53,31 +53,34 @@ class MessageLookup extends MessageLookupByLibrary {
             MessageLookupByLibrary.simpleMessage(" Register"),
         "OtpVerificationRequestResend":
             MessageLookupByLibrary.simpleMessage("Resend"),
-        "SignUpWithEmailViewConfirmPassword":
+        "SignUpWithEmailOrPhoneViewConfirmPassword":
             MessageLookupByLibrary.simpleMessage("Confirm Password"),
-        "SignUpWithEmailViewContinue":
+        "SignUpWithEmailOrPhoneViewContinue":
             MessageLookupByLibrary.simpleMessage("Continue"),
-        "SignUpWithEmailViewCreateYourAccount":
+        "SignUpWithEmailOrPhoneViewCreateYourAccount":
             MessageLookupByLibrary.simpleMessage("Create Your"),
-        "SignUpWithEmailViewEmail":
+        "SignUpWithEmailOrPhoneViewEmail":
             MessageLookupByLibrary.simpleMessage("Email"),
-        "SignUpWithEmailViewName": MessageLookupByLibrary.simpleMessage("Name"),
-        "SignUpWithEmailViewNow":
+        "SignUpWithEmailOrPhoneViewName":
+            MessageLookupByLibrary.simpleMessage("Name"),
+        "SignUpWithEmailOrPhoneViewNow":
             MessageLookupByLibrary.simpleMessage("Account"),
-        "SignUpWithEmailViewPassword":
+        "SignUpWithEmailOrPhoneViewPassword":
             MessageLookupByLibrary.simpleMessage("Password"),
-        "SignUpWithEmailViewPasswordDialogFirst":
+        "SignUpWithEmailOrPhoneViewPasswordDialogFirst":
             MessageLookupByLibrary.simpleMessage(
                 "• Be at least eight characters"),
-        "SignUpWithEmailViewPasswordDialogFourth":
+        "SignUpWithEmailOrPhoneViewPasswordDialogFourth":
             MessageLookupByLibrary.simpleMessage("• at least one number"),
-        "SignUpWithEmailViewPasswordDialogSecond":
+        "SignUpWithEmailOrPhoneViewPasswordDialogSecond":
             MessageLookupByLibrary.simpleMessage("• at least one letter"),
-        "SignUpWithEmailViewPasswordDialogThird":
+        "SignUpWithEmailOrPhoneViewPasswordDialogThird":
             MessageLookupByLibrary.simpleMessage(
                 "• at least one capital letter"),
-        "SignUpWithEmailViewPasswordDialogTitle":
+        "SignUpWithEmailOrPhoneViewPasswordDialogTitle":
             MessageLookupByLibrary.simpleMessage(
-                "Password must meet the following requirements:")
+                "Password must meet the following requirements:"),
+        "SignUpWithEmailOrPhoneViewPhone":
+            MessageLookupByLibrary.simpleMessage("Phone Number")
       };
 }

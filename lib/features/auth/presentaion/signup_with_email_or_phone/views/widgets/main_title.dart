@@ -17,12 +17,12 @@ class MainTitle extends StatelessWidget {
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
           AutoSizeText(
-            S.of(context).SignUpWithEmailViewCreateYourAccount,
+            S.of(context).SignUpWithEmailOrPhoneViewCreateYourAccount,
             style: getTextStyle(
                 fontSize: 40, fontWeight: FontWeight.w700, color: Colors.black),
           ),
           AutoSizeText(
-            S.of(context).SignUpWithEmailViewNow,
+            S.of(context).SignUpWithEmailOrPhoneViewNow,
             style: getTextStyle(
                 fontSize: 40, fontWeight: FontWeight.w700, color: Colors.black),
           ),

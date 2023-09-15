@@ -30,6 +30,7 @@ environment:
 dependencies:
   auto_size_text: ^3.0.0
   cupertino_icons: ^1.0.2
+  dartz: ^0.10.1
   device_preview: ^1.1.0
   dots_indicator: ^3.0.0
   flutter:

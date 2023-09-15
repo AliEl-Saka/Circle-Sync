@@ -12,7 +12,7 @@ class ContinueButton extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return CustomButton(
-      cardName: S.of(context).SignUpWithEmailViewContinue,
+      cardName: S.of(context).SignUpWithEmailOrPhoneViewContinue,
       onTap: () {
         Navigator.pushNamed(context, AppRoutes.otpVerification);
       },

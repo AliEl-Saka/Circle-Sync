@@ -14,7 +14,7 @@ class PasswordDialogBody extends StatelessWidget {
       crossAxisAlignment: CrossAxisAlignment.start,
       children: [
         Text(
-          S.of(context).SignUpWithEmailViewPasswordDialogTitle,
+          S.of(context).SignUpWithEmailOrPhoneViewPasswordDialogTitle,
           style: getTextStyle(
               fontSize: 24, fontWeight: FontWeight.w500, color: Colors.black),
         ),
@@ -22,22 +22,22 @@ class PasswordDialogBody extends StatelessWidget {
           height: 12,
         ),
         Text(
-          S.of(context).SignUpWithEmailViewPasswordDialogFirst,
+          S.of(context).SignUpWithEmailOrPhoneViewPasswordDialogFirst,
           style: getTextStyle(
               fontSize: 24, fontWeight: FontWeight.w500, color: Colors.black),
         ),
         Text(
-          S.of(context).SignUpWithEmailViewPasswordDialogSecond,
+          S.of(context).SignUpWithEmailOrPhoneViewPasswordDialogSecond,
           style: getTextStyle(
               fontSize: 24, fontWeight: FontWeight.w500, color: Colors.black),
         ),
         Text(
-          S.of(context).SignUpWithEmailViewPasswordDialogThird,
+          S.of(context).SignUpWithEmailOrPhoneViewPasswordDialogThird,
           style: getTextStyle(
               fontSize: 24, fontWeight: FontWeight.w500, color: Colors.black),
         ),
         Text(
-          S.of(context).SignUpWithEmailViewPasswordDialogFourth,
+          S.of(context).SignUpWithEmailOrPhoneViewPasswordDialogFourth,
           style: getTextStyle(
               fontSize: 24, fontWeight: FontWeight.w500, color: Colors.black),
         ),

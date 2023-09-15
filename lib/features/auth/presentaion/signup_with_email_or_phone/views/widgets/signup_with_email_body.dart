@@ -1,11 +1,11 @@
 import 'package:circlesync/core/utils/color_palette.dart';
 import 'package:circlesync/core/utils/size_config.dart';
 import 'package:circlesync/core/widgets/auth_views_padding.dart';
-import 'package:circlesync/features/auth/presentaion/signup_with_email/views/widgets/signup_with_email_already_have_account.dart';
-import 'package:circlesync/features/auth/presentaion/signup_with_email/views/widgets/continue_button.dart';
-import 'package:circlesync/features/auth/presentaion/signup_with_email/views/widgets/form.dart';
-import 'package:circlesync/features/auth/presentaion/signup_with_email/views/widgets/go_back_icon.dart';
-import 'package:circlesync/features/auth/presentaion/signup_with_email/views/widgets/main_title.dart';
+import 'package:circlesync/features/auth/presentaion/signup_with_email_or_phone/views/widgets/signup_with_email_already_have_account.dart';
+import 'package:circlesync/features/auth/presentaion/signup_with_email_or_phone/views/widgets/continue_button.dart';
+import 'package:circlesync/features/auth/presentaion/signup_with_email_or_phone/views/widgets/form.dart';
+import 'package:circlesync/features/auth/presentaion/signup_with_email_or_phone/views/widgets/go_back_icon.dart';
+import 'package:circlesync/features/auth/presentaion/signup_with_email_or_phone/views/widgets/main_title.dart';
 import 'package:flutter/material.dart';
 
 class SignUpWithEmailViewBody extends StatefulWidget {
@@ -38,7 +38,8 @@ class _SignUpWithEmailViewBodyState extends State<SignUpWithEmailViewBody> {
             SizedBox(
               height: SizeConfig.defaultSize! * 2,
             ),
-            SignUpWithEmailForm(
+            SignUpWithEmailOrPhoneForm(
+              isSignUpWithEmailView: true,
                 obscurePassword: obscurePassword,
                 obscureConfirmPassword:
                     obscureConfirmPassword), // all screen text fields

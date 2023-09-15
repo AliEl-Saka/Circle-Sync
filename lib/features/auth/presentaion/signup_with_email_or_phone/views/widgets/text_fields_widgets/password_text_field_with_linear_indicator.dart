@@ -1,7 +1,7 @@
 import 'package:circlesync/core/utils/color_palette.dart';
 import 'package:circlesync/core/utils/functions/password_strength_percentage_checker.dart';
-import 'package:circlesync/features/auth/presentaion/signup_with_email/views/widgets/text_fields_widgets/password_text_field_with_linear_indicator_widgets/linear_indicator_with_details_icon.dart';
-import 'package:circlesync/features/auth/presentaion/signup_with_email/views/widgets/text_fields_widgets/password_text_field_with_linear_indicator_widgets/password_text_field.dart';
+import 'package:circlesync/features/auth/presentaion/signup_with_email_or_phone/views/widgets/text_fields_widgets/password_text_field_with_linear_indicator_widgets/linear_indicator_with_details_icon.dart';
+import 'package:circlesync/features/auth/presentaion/signup_with_email_or_phone/views/widgets/text_fields_widgets/password_text_field_with_linear_indicator_widgets/password_text_field.dart';
 import 'package:flutter/material.dart';
 
 class PasswordTextFieldWithLinearIndicator extends StatefulWidget {

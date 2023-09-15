@@ -3,33 +3,30 @@ import 'package:circlesync/generated/l10n.dart';
 import 'package:flutter/material.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 
-class PasswordTextField extends StatefulWidget {
-  const PasswordTextField(
-      {super.key, required this.obscureText, required this.passwordController});
-  final bool obscureText;
-  final TextEditingController passwordController;
+class ConfirmPasswordTextField extends StatefulWidget {
+  const ConfirmPasswordTextField({super.key, required this.obsucreText});
+  final bool obsucreText;
 
   @override
-  State<PasswordTextField> createState() => _PasswordTextFieldState();
+  State<ConfirmPasswordTextField> createState() =>
+      _ConfirmPasswordTextFieldState();
 }
 
-class _PasswordTextFieldState extends State<PasswordTextField> {
+class _ConfirmPasswordTextFieldState extends State<ConfirmPasswordTextField> {
   late bool _obscureText;
-  late TextEditingController _passwordController;
-
   @override
   void initState() {
-    _obscureText = widget.obscureText;
-    _passwordController = widget.passwordController;
+    _obscureText = widget.obsucreText;
     super.initState();
   }
 
   @override
   Widget build(BuildContext context) {
     return CustomTextField(
+      //!
+      controller: TextEditingController(),
       onchanged: (p0) {},
-      controller: _passwordController,
-      hintText: S.of(context).SignUpWithEmailViewPassword,
+      hintText: S.of(context).SignUpWithEmailOrPhoneViewConfirmPassword,
       prefixIcon: const Icon(FontAwesomeIcons.lock),
       suffixIcon: GestureDetector(
         onTap: () {

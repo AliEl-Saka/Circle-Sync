@@ -1,6 +1,7 @@
 import 'package:circlesync/features/auth/presentaion/choose_signup_method/views/choose_signup_method_view.dart';
 import 'package:circlesync/features/auth/presentaion/otp_verification/Views/otp_verification_view.dart';
-import 'package:circlesync/features/auth/presentaion/signup_with_email/views/signup_with_email.dart';
+import 'package:circlesync/features/auth/presentaion/signup_with_email_or_phone/views/signup_with_email.dart';
+import 'package:circlesync/features/auth/presentaion/signup_with_email_or_phone/views/signup_with_phone.dart';
 import 'package:circlesync/features/onbaording/presentaion/maneger/page_index_cubit.dart';
 import 'package:circlesync/features/onbaording/presentaion/views/onboarding_view.dart';
 import 'package:circlesync/features/spalsh/presentaion/views/splash_view.dart';
@@ -13,6 +14,7 @@ class AppRoutes {
   static const String chooseSignUpMethodView = '/choose signUp method view';
   static const String signUpWithEmail = '/SignUp with email';
   static const String otpVerification = '/otp verification';
+  static const String signUpWithPhone = '/SignUp with phone';
 }
 
 class AppRouter {
@@ -40,6 +42,10 @@ class AppRouter {
       case AppRoutes.otpVerification:
         return MaterialPageRoute(
           builder: (context) => const OtpVerificationView(),
+        );
+      case AppRoutes.signUpWithPhone:
+        return MaterialPageRoute(
+          builder: (context) => const SignUpWithPhoneView(),
         );
     }
     return null;

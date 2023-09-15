@@ -34,7 +34,9 @@ class ContinueWithPhoneButton extends StatelessWidget {
       backGroundColor: ColorsPallete.primarySwatch,
       textColor: Colors.white,
       cardName: S.of(context).ChooseSignUpMethodViewPhoneCard,
-      onTap: () {},
+      onTap: () {
+        Navigator.pushNamed(context, AppRoutes.signUpWithPhone);
+      },
     );
   }
 }

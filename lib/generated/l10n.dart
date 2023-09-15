@@ -151,120 +151,130 @@ class S {
   }
 
   /// `Create Your`
-  String get SignUpWithEmailViewCreateYourAccount {
+  String get SignUpWithEmailOrPhoneViewCreateYourAccount {
     return Intl.message(
       'Create Your',
-      name: 'SignUpWithEmailViewCreateYourAccount',
+      name: 'SignUpWithEmailOrPhoneViewCreateYourAccount',
       desc: '',
       args: [],
     );
   }
 
   /// `Account`
-  String get SignUpWithEmailViewNow {
+  String get SignUpWithEmailOrPhoneViewNow {
     return Intl.message(
       'Account',
-      name: 'SignUpWithEmailViewNow',
+      name: 'SignUpWithEmailOrPhoneViewNow',
       desc: '',
       args: [],
     );
   }
 
   /// `Email`
-  String get SignUpWithEmailViewEmail {
+  String get SignUpWithEmailOrPhoneViewEmail {
     return Intl.message(
       'Email',
-      name: 'SignUpWithEmailViewEmail',
+      name: 'SignUpWithEmailOrPhoneViewEmail',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Phone Number`
+  String get SignUpWithEmailOrPhoneViewPhone {
+    return Intl.message(
+      'Phone Number',
+      name: 'SignUpWithEmailOrPhoneViewPhone',
       desc: '',
       args: [],
     );
   }
 
   /// `Name`
-  String get SignUpWithEmailViewName {
+  String get SignUpWithEmailOrPhoneViewName {
     return Intl.message(
       'Name',
-      name: 'SignUpWithEmailViewName',
+      name: 'SignUpWithEmailOrPhoneViewName',
       desc: '',
       args: [],
     );
   }
 
   /// `Password`
-  String get SignUpWithEmailViewPassword {
+  String get SignUpWithEmailOrPhoneViewPassword {
     return Intl.message(
       'Password',
-      name: 'SignUpWithEmailViewPassword',
+      name: 'SignUpWithEmailOrPhoneViewPassword',
       desc: '',
       args: [],
     );
   }
 
   /// `Confirm Password`
-  String get SignUpWithEmailViewConfirmPassword {
+  String get SignUpWithEmailOrPhoneViewConfirmPassword {
     return Intl.message(
       'Confirm Password',
-      name: 'SignUpWithEmailViewConfirmPassword',
+      name: 'SignUpWithEmailOrPhoneViewConfirmPassword',
       desc: '',
       args: [],
     );
   }
 
   /// `Continue`
-  String get SignUpWithEmailViewContinue {
+  String get SignUpWithEmailOrPhoneViewContinue {
     return Intl.message(
       'Continue',
-      name: 'SignUpWithEmailViewContinue',
+      name: 'SignUpWithEmailOrPhoneViewContinue',
       desc: '',
       args: [],
     );
   }
 
   /// `Password must meet the following requirements:`
-  String get SignUpWithEmailViewPasswordDialogTitle {
+  String get SignUpWithEmailOrPhoneViewPasswordDialogTitle {
     return Intl.message(
       'Password must meet the following requirements:',
-      name: 'SignUpWithEmailViewPasswordDialogTitle',
+      name: 'SignUpWithEmailOrPhoneViewPasswordDialogTitle',
       desc: '',
       args: [],
     );
   }
 
   /// `• Be at least eight characters`
-  String get SignUpWithEmailViewPasswordDialogFirst {
+  String get SignUpWithEmailOrPhoneViewPasswordDialogFirst {
     return Intl.message(
       '• Be at least eight characters',
-      name: 'SignUpWithEmailViewPasswordDialogFirst',
+      name: 'SignUpWithEmailOrPhoneViewPasswordDialogFirst',
       desc: '',
       args: [],
     );
   }
 
   /// `• at least one letter`
-  String get SignUpWithEmailViewPasswordDialogSecond {
+  String get SignUpWithEmailOrPhoneViewPasswordDialogSecond {
     return Intl.message(
       '• at least one letter',
-      name: 'SignUpWithEmailViewPasswordDialogSecond',
+      name: 'SignUpWithEmailOrPhoneViewPasswordDialogSecond',
       desc: '',
       args: [],
     );
   }
 
   /// `• at least one capital letter`
-  String get SignUpWithEmailViewPasswordDialogThird {
+  String get SignUpWithEmailOrPhoneViewPasswordDialogThird {
     return Intl.message(
       '• at least one capital letter',
-      name: 'SignUpWithEmailViewPasswordDialogThird',
+      name: 'SignUpWithEmailOrPhoneViewPasswordDialogThird',
       desc: '',
       args: [],
     );
   }
 
   /// `• at least one number`
-  String get SignUpWithEmailViewPasswordDialogFourth {
+  String get SignUpWithEmailOrPhoneViewPasswordDialogFourth {
     return Intl.message(
       '• at least one number',
-      name: 'SignUpWithEmailViewPasswordDialogFourth',
+      name: 'SignUpWithEmailOrPhoneViewPasswordDialogFourth',
       desc: '',
       args: [],
     );
