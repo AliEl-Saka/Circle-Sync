@@ -13,8 +13,7 @@ import 'package:circlesync/generated/l10n.dart';
 import 'package:flutter/material.dart';
 
 class OtpVerificationViewBody extends StatefulWidget {
-  const OtpVerificationViewBody({super.key, required this.isOtpForEmail});
-  final bool isOtpForEmail;
+  const OtpVerificationViewBody({super.key});
 
   @override
   State<OtpVerificationViewBody> createState() =>
@@ -24,12 +23,10 @@ class OtpVerificationViewBody extends StatefulWidget {
 class _OtpVerificationViewBodyState extends State<OtpVerificationViewBody> {
   int sec = 21;
   Timer? timer;
-  late bool isOtpForEmail;
 
   @override
   void initState() {
     startTimer();
-    isOtpForEmail = widget.isOtpForEmail;
     super.initState();
   }
 
@@ -43,12 +40,14 @@ class _OtpVerificationViewBodyState extends State<OtpVerificationViewBody> {
             height: SizeConfig.defaultSize! * 5,
           ),
           const OtpVerificationMainTitle(),
-          OtpVerification(text: isOtpForEmail ? 'example@example.com' : '+201011543706'),
+          const OtpVerificationEmailAddress(
+              emailAddress: 'example@example.com'),
           SizedBox(
             height: SizeConfig.defaultSize! * 6,
           ),
           const CustomPinCodeTextField(),
           AuthViewsPadding(
+            
             child: CustomButton(
               cardName: S.of(context).OtpVerificationRequestRegister,
               onTap: () {},

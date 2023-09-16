@@ -2,14 +2,17 @@ import 'package:circlesync/features/auth/presentaion/otp_verification/Views/widg
 import 'package:flutter/material.dart';
 
 class OtpVerificationView extends StatelessWidget {
-  const OtpVerificationView({super.key, required this.isOtpForEmail});
-  final bool isOtpForEmail;
+  const OtpVerificationView({super.key});
 
   @override
   Widget build(BuildContext context) {
-    return SafeArea(
+    return const SafeArea(
         child: Scaffold(
-      body: OtpVerificationViewBody(isOtpForEmail: isOtpForEmail),
+      body: OtpVerificationViewBody(),
     ));
   }
 }
+
+
+
+

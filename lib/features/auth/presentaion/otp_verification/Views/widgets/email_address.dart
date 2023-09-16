@@ -4,9 +4,12 @@ import 'package:circlesync/core/utils/functions/is_arabic.dart';
 import 'package:circlesync/core/widgets/auth_views_padding.dart';
 import 'package:flutter/material.dart';
 
-class OtpVerification extends StatelessWidget {
-  const OtpVerification({super.key, required this.text});
-  final String text;
+class OtpVerificationEmailAddress extends StatelessWidget {
+  const OtpVerificationEmailAddress({
+    super.key,
+    required this.emailAddress
+  });
+  final String emailAddress;
 
   @override
   Widget build(BuildContext context) {
@@ -14,7 +17,7 @@ class OtpVerification extends StatelessWidget {
       child: Align(
         alignment: isArabic() ? Alignment.centerRight : Alignment.centerLeft,
         child: AutoSizeText(
-          text,
+          emailAddress,
           maxLines: 1,
           style: getTextStyle(
               fontSize: 28, fontWeight: FontWeight.w700, color: Colors.black),

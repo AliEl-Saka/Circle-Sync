@@ -40,9 +40,8 @@ class AppRouter {
           builder: (context) => const SignUpWithEmailView(),
         );
       case AppRoutes.otpVerification:
-      final bool isOtpForEmail = settings.arguments as bool;
         return MaterialPageRoute(
-          builder: (context) => OtpVerificationView(isOtpForEmail: isOtpForEmail ),
+          builder: (context) => const OtpVerificationView(),
         );
       case AppRoutes.signUpWithPhone:
         return MaterialPageRoute(

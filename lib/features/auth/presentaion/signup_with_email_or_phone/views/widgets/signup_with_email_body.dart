@@ -47,7 +47,7 @@ class _SignUpWithEmailViewBodyState extends State<SignUpWithEmailViewBody> {
             SizedBox(
               height: SizeConfig.defaultSize! * 4,
             ),
-            const ContinueButton(isOtpForEmail: true),
+            const ContinueButton(),
             const SignupWithEmailAlreadyHaveAnAccount(),
             SizedBox(
               height: SizeConfig.defaultSize! * 3,

@@ -7,17 +7,14 @@ import 'package:flutter/material.dart';
 class ContinueButton extends StatelessWidget {
   const ContinueButton({
     super.key,
-    required this.isOtpForEmail
   });
-  final bool isOtpForEmail;
 
   @override
   Widget build(BuildContext context) {
     return CustomButton(
       cardName: S.of(context).SignUpWithEmailOrPhoneViewContinue,
       onTap: () {
-        Navigator.pushNamed(context, AppRoutes.otpVerification,
-            arguments: isOtpForEmail);
+        Navigator.pushNamed(context, AppRoutes.otpVerification);
       },
       textColor: Colors.white,
       backGroundColor: ColorsPallete.primarySwatch,

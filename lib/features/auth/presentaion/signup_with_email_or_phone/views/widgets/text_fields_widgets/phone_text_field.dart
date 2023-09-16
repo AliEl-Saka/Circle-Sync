@@ -1,4 +1,5 @@
 import 'package:auto_size_text/auto_size_text.dart';
+import 'package:circlesync/core/utils/color_palette.dart';
 import 'package:circlesync/core/utils/functions/get_text_style.dart';
 import 'package:circlesync/core/widgets/custom_text_field.dart';
 import 'package:circlesync/generated/l10n.dart';
