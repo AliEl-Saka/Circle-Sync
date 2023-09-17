@@ -36,7 +36,7 @@ class _PasswordTextFieldWithLinearIndicatorState
   Widget build(BuildContext context) {
     return Column(
       children: [
-        PasswordTextField(
+        SignUpPasswordTextField(
           obscureText: _obscureText,
           passwordController: passwordController,
         ),
@@ -67,7 +67,6 @@ class _PasswordTextFieldWithLinearIndicatorState
       });
     }
   }
-
 
   void updateColor() {
     if (indicatorPercent == 1 / 3) {

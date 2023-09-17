@@ -3,18 +3,17 @@ import 'package:circlesync/generated/l10n.dart';
 import 'package:flutter/material.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 
-class SignUpPasswordTextField extends StatefulWidget {
-  const SignUpPasswordTextField(
+class LoginPasswordTextField extends StatefulWidget {
+  const LoginPasswordTextField(
       {super.key, required this.obscureText, required this.passwordController});
   final bool obscureText;
   final TextEditingController passwordController;
 
   @override
-  State<SignUpPasswordTextField> createState() =>
-      _SignUpPasswordTextFieldState();
+  State<LoginPasswordTextField> createState() => _LoginPasswordTextFieldState();
 }
 
-class _SignUpPasswordTextFieldState extends State<SignUpPasswordTextField> {
+class _LoginPasswordTextFieldState extends State<LoginPasswordTextField> {
   late bool _obscureText;
   late TextEditingController _passwordController;
 

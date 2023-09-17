@@ -30,7 +30,16 @@
     "OtpVerificationCodeSend" : "سيتم ارسال الكود خلال",
     "OtpVerificationDidnotReceiveCode" : " لم تستقبل أي كود؟",
     "OtpVerificationRequestResend" : "اعاده الارسال",
-    "OtpVerificationRequestRegister" : "تسجيل"
+    "OtpVerificationRequestRegister" : "تسجيل",
+
+    "LoginViewLoginToYour" : "تسجيل الدخول الي",
+    "LoginViewAccount" : "حسابك",
+    "LoginViewEmailOrPhoneTextField" : "الايميل او رقم الهاتف",
+    "LoginViewDontHaveAccount" : "ليس لديك حساب؟ ",
+    "LoginViewSignUp" : "انشئ حساب",
+    "LoginViewRememberMe" : "تذكر كلمه السر",
+    "LoginViewForgotMyPassword" : "نسيت كلمه السر ",
+    "loginviewOrContinueWith" : "أو اكمل بواسطه"
     
 
 

@@ -5,7 +5,9 @@ import 'package:flutter/material.dart';
 class DividerWithTextWidget extends StatelessWidget {
   const DividerWithTextWidget({
     super.key,
+    required this.text
   });
+  final String text;
 
   @override
   Widget build(BuildContext context) {
@@ -20,7 +22,7 @@ class DividerWithTextWidget extends StatelessWidget {
           ),
         ),
         Text(
-          S.of(context).ChooseSignUpMethodViewOr,
+          text,
           style: getTextStyle(
               fontSize: 24, fontWeight: FontWeight.w500, color: Colors.black),
         ),

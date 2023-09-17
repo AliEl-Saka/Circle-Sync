@@ -41,6 +41,18 @@ class MessageLookup extends MessageLookupByLibrary {
             MessageLookupByLibrary.simpleMessage("اهلاً بك في"),
         "ChooseSignUpMethodViewTitleTwo":
             MessageLookupByLibrary.simpleMessage(" سيركل سينك!"),
+        "LoginViewAccount": MessageLookupByLibrary.simpleMessage("حسابك"),
+        "LoginViewDontHaveAccount":
+            MessageLookupByLibrary.simpleMessage("ليس لديك حساب؟ "),
+        "LoginViewEmailOrPhoneTextField":
+            MessageLookupByLibrary.simpleMessage("الايميل او رقم الهاتف"),
+        "LoginViewForgotMyPassword":
+            MessageLookupByLibrary.simpleMessage("نسيت كلمه السر "),
+        "LoginViewLoginToYour":
+            MessageLookupByLibrary.simpleMessage("تسجيل الدخول الي"),
+        "LoginViewRememberMe":
+            MessageLookupByLibrary.simpleMessage("تذكر كلمه السر"),
+        "LoginViewSignUp": MessageLookupByLibrary.simpleMessage("انشئ حساب"),
         "OtpVerification": MessageLookupByLibrary.simpleMessage("رمز التحقق"),
         "OtpVerificationCodeSend":
             MessageLookupByLibrary.simpleMessage("سيتم ارسال الكود خلال"),
@@ -82,6 +94,8 @@ class MessageLookup extends MessageLookupByLibrary {
             MessageLookupByLibrary.simpleMessage(
                 "كلمة المرور يجب أن تستوفي المتطلبات التالية"),
         "SignUpWithEmailOrPhoneViewPhone":
-            MessageLookupByLibrary.simpleMessage("رقم الهاتف")
+            MessageLookupByLibrary.simpleMessage("رقم الهاتف"),
+        "loginviewOrContinueWith":
+            MessageLookupByLibrary.simpleMessage("أو اكمل بواسطه")
       };
 }

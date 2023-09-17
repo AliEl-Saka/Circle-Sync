@@ -4,8 +4,8 @@ import 'package:circlesync/core/utils/functions/is_arabic.dart';
 import 'package:circlesync/generated/l10n.dart';
 import 'package:flutter/material.dart';
 
-class MainTitle extends StatelessWidget {
-  const MainTitle({
+class SignUpMainTitle extends StatelessWidget {
+  const SignUpMainTitle({
     super.key,
   });
 

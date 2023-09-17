@@ -4,8 +4,8 @@ import 'package:circlesync/core/widgets/custom_button.dart';
 import 'package:circlesync/generated/l10n.dart';
 import 'package:flutter/material.dart';
 
-class ContinueButton extends StatelessWidget {
-  const ContinueButton({
+class SignUpContinueButton extends StatelessWidget {
+  const SignUpContinueButton({
     super.key,
   });
 

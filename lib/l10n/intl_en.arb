@@ -30,6 +30,15 @@
     "OtpVerificationCodeSend" : "Code will be send in",
     "OtpVerificationDidnotReceiveCode" : "Didn't receive code? ",
     "OtpVerificationRequestResend" : "Resend",
-    "OtpVerificationRequestRegister" : " Register"
+    "OtpVerificationRequestRegister" : " Register",
+
+    "LoginViewLoginToYour" : "Login To Your",
+    "LoginViewAccount" : "Account",
+    "LoginViewEmailOrPhoneTextField" : "Email or Phone Number",
+    "LoginViewDontHaveAccount" : "Don't have an account? ",
+    "LoginViewSignUp" : "Sign Up",
+    "LoginViewRememberMe" : "Remember me",
+    "LoginViewForgotMyPassword" : "Forgot my password",
+    "loginviewOrContinueWith" : "Or Continue With"
 
 }

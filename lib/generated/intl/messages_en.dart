@@ -41,6 +41,18 @@ class MessageLookup extends MessageLookupByLibrary {
             MessageLookupByLibrary.simpleMessage("Welcome To"),
         "ChooseSignUpMethodViewTitleTwo":
             MessageLookupByLibrary.simpleMessage(" CircleSync!"),
+        "LoginViewAccount": MessageLookupByLibrary.simpleMessage("Account"),
+        "LoginViewDontHaveAccount":
+            MessageLookupByLibrary.simpleMessage("Don\'t have an account? "),
+        "LoginViewEmailOrPhoneTextField":
+            MessageLookupByLibrary.simpleMessage("Email or Phone Number"),
+        "LoginViewForgotMyPassword":
+            MessageLookupByLibrary.simpleMessage("Forgot my password"),
+        "LoginViewLoginToYour":
+            MessageLookupByLibrary.simpleMessage("Login To Your"),
+        "LoginViewRememberMe":
+            MessageLookupByLibrary.simpleMessage("Remember me"),
+        "LoginViewSignUp": MessageLookupByLibrary.simpleMessage("Sign Up"),
         "OtpVerification":
             MessageLookupByLibrary.simpleMessage("OTP Verification"),
         "OtpVerificationCodeSend":
@@ -81,6 +93,8 @@ class MessageLookup extends MessageLookupByLibrary {
             MessageLookupByLibrary.simpleMessage(
                 "Password must meet the following requirements:"),
         "SignUpWithEmailOrPhoneViewPhone":
-            MessageLookupByLibrary.simpleMessage("Phone Number")
+            MessageLookupByLibrary.simpleMessage("Phone Number"),
+        "loginviewOrContinueWith":
+            MessageLookupByLibrary.simpleMessage("Or Continue With")
       };
 }

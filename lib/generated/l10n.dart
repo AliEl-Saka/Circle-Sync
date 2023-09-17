@@ -339,6 +339,86 @@ class S {
       args: [],
     );
   }
+
+  /// `Login To Your`
+  String get LoginViewLoginToYour {
+    return Intl.message(
+      'Login To Your',
+      name: 'LoginViewLoginToYour',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Account`
+  String get LoginViewAccount {
+    return Intl.message(
+      'Account',
+      name: 'LoginViewAccount',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Email or Phone Number`
+  String get LoginViewEmailOrPhoneTextField {
+    return Intl.message(
+      'Email or Phone Number',
+      name: 'LoginViewEmailOrPhoneTextField',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Don't have an account? `
+  String get LoginViewDontHaveAccount {
+    return Intl.message(
+      'Don\'t have an account? ',
+      name: 'LoginViewDontHaveAccount',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Sign Up`
+  String get LoginViewSignUp {
+    return Intl.message(
+      'Sign Up',
+      name: 'LoginViewSignUp',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Remember me`
+  String get LoginViewRememberMe {
+    return Intl.message(
+      'Remember me',
+      name: 'LoginViewRememberMe',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Forgot my password`
+  String get LoginViewForgotMyPassword {
+    return Intl.message(
+      'Forgot my password',
+      name: 'LoginViewForgotMyPassword',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Or Continue With`
+  String get loginviewOrContinueWith {
+    return Intl.message(
+      'Or Continue With',
+      name: 'loginviewOrContinueWith',
+      desc: '',
+      args: [],
+    );
+  }
 }
 
 class AppLocalizationDelegate extends LocalizationsDelegate<S> {
