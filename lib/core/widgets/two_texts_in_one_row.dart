@@ -10,7 +10,8 @@ class TwoTextsInOneRow extends StatelessWidget {
       required this.secondText,
       required this.secondTextColor,
       required this.customfontSize,
-      required this.mainAxisAlignment})
+      required this.mainAxisAlignment,
+      this.onTap,})
       : super(key: key);
   final String firstText;
   final Color firstTextColor;
@@ -18,6 +19,7 @@ class TwoTextsInOneRow extends StatelessWidget {
   final Color secondTextColor;
   final double customfontSize;
   final MainAxisAlignment mainAxisAlignment;
+  final void Function()? onTap;
 
   @override
   Widget build(BuildContext context) {
@@ -37,13 +39,16 @@ class TwoTextsInOneRow extends StatelessWidget {
                   fontWeight: FontWeight.w500,
                   color: firstTextColor),
             ),
-            AutoSizeText(
-              secondText,
-              maxLines: 1,
-              style: getTextStyle(
-                  fontSize: customfontSize,
-                  fontWeight: FontWeight.w700,
-                  color: secondTextColor),
+            GestureDetector(
+              onTap: onTap,
+              child: AutoSizeText(
+                secondText,
+                maxLines: 1,
+                style: getTextStyle(
+                    fontSize: customfontSize,
+                    fontWeight: FontWeight.w700,
+                    color: secondTextColor),
+              ),
             )
           ],
         ),

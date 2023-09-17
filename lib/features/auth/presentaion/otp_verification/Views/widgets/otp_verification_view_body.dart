@@ -47,16 +47,12 @@ class _OtpVerificationViewBodyState extends State<OtpVerificationViewBody> {
           ),
           const CustomPinCodeTextField(),
           AuthViewsPadding(
-            
             child: CustomButton(
               cardName: S.of(context).OtpVerificationRequestRegister,
               onTap: () {},
               textColor: Colors.white,
               backGroundColor: ColorsPallete.primarySwatch,
             ),
-          ),
-          SizedBox(
-            height: SizeConfig.defaultSize! * 2,
           ),
           sec != 0 ? CodeWillSendIn(sec: sec) : const RequestResendCode()
         ],

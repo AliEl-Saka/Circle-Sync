@@ -14,7 +14,7 @@ class ContinueButton extends StatelessWidget {
     return CustomButton(
       cardName: S.of(context).SignUpWithEmailOrPhoneViewContinue,
       onTap: () {
-        Navigator.pushNamed(context, AppRoutes.otpVerification);
+        Navigator.pushNamed(context, AppRoutes.otpVerificationView);
       },
       textColor: Colors.white,
       backGroundColor: ColorsPallete.primarySwatch,

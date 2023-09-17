@@ -17,7 +17,7 @@ class ContinueWithEmailButton extends StatelessWidget {
       textColor: Colors.white,
       cardName: S.of(context).ChooseSignUpMethodViewEmailCard,
       onTap: () {
-        Navigator.pushNamed(context, AppRoutes.signUpWithEmail);
+        Navigator.pushNamed(context, AppRoutes.signUpWithEmailView);
       },
     );
   }
@@ -35,7 +35,7 @@ class ContinueWithPhoneButton extends StatelessWidget {
       textColor: Colors.white,
       cardName: S.of(context).ChooseSignUpMethodViewPhoneCard,
       onTap: () {
-        Navigator.pushNamed(context, AppRoutes.signUpWithPhone);
+        Navigator.pushNamed(context, AppRoutes.signUpWithPhoneView);
       },
     );
   }

@@ -16,7 +16,7 @@ class CodeWillSendIn extends StatelessWidget {
         firstTextColor: Colors.black,
         secondText: ' 00:$sec',
         secondTextColor: ColorsPallete.primarySwatch,
-        customfontSize: 26,
+        customfontSize: 23,
       ),
     );
   }

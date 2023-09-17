@@ -1,4 +1,5 @@
 import 'package:circlesync/features/auth/presentaion/choose_signup_method/views/choose_signup_method_view.dart';
+import 'package:circlesync/features/auth/presentaion/login/views/login_view.dart';
 import 'package:circlesync/features/auth/presentaion/otp_verification/Views/otp_verification_view.dart';
 import 'package:circlesync/features/auth/presentaion/signup_with_email_or_phone/views/signup_with_email.dart';
 import 'package:circlesync/features/auth/presentaion/signup_with_email_or_phone/views/signup_with_phone.dart';
@@ -12,9 +13,10 @@ class AppRoutes {
   static const String splashView = '/';
   static const String onBoardingView = '/onBoarding View';
   static const String chooseSignUpMethodView = '/choose signUp method view';
-  static const String signUpWithEmail = '/SignUp with email';
-  static const String otpVerification = '/otp verification';
-  static const String signUpWithPhone = '/SignUp with phone';
+  static const String signUpWithEmailView = '/SignUp with email';
+  static const String otpVerificationView = '/otp verification';
+  static const String signUpWithPhoneView = '/SignUp with phone';
+  static const String logIn = '/Login View';
 }
 
 class AppRouter {
@@ -35,17 +37,21 @@ class AppRouter {
         return MaterialPageRoute(
           builder: (context) => const ChooseSignUpMethodView(),
         );
-      case AppRoutes.signUpWithEmail:
+      case AppRoutes.signUpWithEmailView:
         return MaterialPageRoute(
           builder: (context) => const SignUpWithEmailView(),
         );
-      case AppRoutes.otpVerification:
+      case AppRoutes.otpVerificationView:
         return MaterialPageRoute(
           builder: (context) => const OtpVerificationView(),
         );
-      case AppRoutes.signUpWithPhone:
+      case AppRoutes.signUpWithPhoneView:
         return MaterialPageRoute(
           builder: (context) => const SignUpWithPhoneView(),
+        );
+      case AppRoutes.logIn:
+        return MaterialPageRoute(
+          builder: (context) => const LogInView(),
         );
     }
     return null;

@@ -14,7 +14,7 @@ class RequestResendCode extends StatelessWidget {
       firstTextColor: Colors.black,
       secondText: S.of(context).OtpVerificationRequestResend,
       secondTextColor: ColorsPallete.primarySwatch,
-      customfontSize: 26,
+      customfontSize: 23,
     );
   }
 }

@@ -1,3 +1,4 @@
+import 'package:circlesync/core/utils/app_router.dart';
 import 'package:circlesync/core/utils/color_palette.dart';
 import 'package:circlesync/core/widgets/two_texts_in_one_row.dart';
 import 'package:circlesync/generated/l10n.dart';
@@ -17,6 +18,7 @@ class SignupWithEmailAlreadyHaveAnAccount extends StatelessWidget {
       secondText: S.of(context).ChooseSignUpMethodViewLogIn,
       secondTextColor: ColorsPallete.primarySwatch,
       customfontSize: 23,
+      onTap: () => Navigator.pushNamed(context, AppRoutes.logIn),
     );
   }
 }
